@@ -1,0 +1,25 @@
+.home-wrapper {
+    background-image: url("../../Assets/images/home_bg.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(59, 73, 200, 0.36) 25.34%, rgba(0, 26, 255, 0) 100%);
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.home-wrapper .container {
+    z-index: 4;
+    position: relative;
+}
