@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 //helper
 import menus from './helper'
@@ -8,15 +8,22 @@ import logo from '../../Assets/images/logo.png'
 import './navbar.css'
 
 export default () => {
+    const [active, setActive] = useState(null)
+
+
     return (
         <div className="navbar">
-            <a href="#home" className="logo">
+            <a href="#home" className="logo" onClick={() => setActive('#home')}>
                 <img src={logo} alt="logo" />
             </a>
             <ul className="nav-menu">
                 {
                     menus.map((item) => (
-                        <li key={item.id} className="nav-menu-item">
+                        <li
+                            key={item.id} 
+                            onClick={() => setActive(item.url)}
+                            className={`nav-menu-item${active === item.url ? ' active' : ''}`}
+                        >
                             <a href={item.url} className="nav-menu-link">
                                 {item.name}
                             </a>

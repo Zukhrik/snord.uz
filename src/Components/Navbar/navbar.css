@@ -37,10 +37,14 @@
     position: relative;
     border: 1px solid transparent;
     line-height: 1;
+    transition: .2s ease;
+    border-radius: 4px;
+    opacity: .7;
 }
 
-.nav-menu-link:hover {
-    border: 1px solid #fff;
-    border-radius: 2px;
-    margin: 0 5px;
+.nav-menu-link:hover,
+.nav-menu-item.active .nav-menu-link {
+    border-color:#fff;
+    opacity: 1;
+    transform: translateX(-2px);
 }
