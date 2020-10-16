@@ -2,8 +2,7 @@ import React from 'react'
 
 //Components
 import Navbar from '../../Components/Navbar'
-import Header from '../../Components/Header'
-import Buttons from '../../Components/Buttons'
+import HomeBody from './Header'
 
 //Styles
 import './home.css'
@@ -14,8 +13,7 @@ export default () => {
             <div className="home-wrapper">
                 <div className="container">
                     <Navbar />
-                    <Header />
-                    <Buttons />
+                    <HomeBody />
                 </div>
             </div>
         </div>

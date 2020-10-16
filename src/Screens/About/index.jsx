@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default () => (
-    <div className="screen-basic">
-        about
-    </div>
-)
+export default () => {
+    return (
+        <div>asdsa</div>
+    )
+}

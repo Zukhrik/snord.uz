@@ -24,3 +24,52 @@
     z-index: 4;
     position: relative;
 }
+
+.home-body {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.home-body h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.home-body p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center; 
+}
+
+.home-body-inner {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-gap: 24px;
+    margin-top: 16px;
+}
+
+.home-buttons button{
+    min-width: 200px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 18px 24px;
+}

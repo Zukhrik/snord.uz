@@ -10,6 +10,9 @@ import './navbar.css'
 export default () => {
     const [active, setActive] = useState(null)
 
+    const handleClick = (value) => {
+        setActive(value)
+    }
 
     return (
         <div className="navbar">
@@ -21,7 +24,7 @@ export default () => {
                     menus.map((item) => (
                         <li
                             key={item.id} 
-                            onClick={() => setActive(item.url)}
+                            onClick={() => handleClick(item.url)}
                             className={`nav-menu-item${active === item.url ? ' active' : ''}`}
                         >
                             <a href={item.url} className="nav-menu-link">

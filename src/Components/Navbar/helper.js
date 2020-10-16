@@ -1,27 +1,27 @@
 export default [
     {
         id: 1,
-        name:"Home",
+        name:"ГЛАВНАЯ",
         url: "#home"
     },
     {
         id: 2,
-        name:"About",
+        name:"О НАС",
         url: "#about"
     },
     {
         id: 3,
-        name: "Equipment",
+        name: "ОБОРУДОВАНИЕ",
         url: "#equipment"
     },
     {
         id: 4,
-        name:"News",
+        name:"НОВОСТИ",
         url: "#news"
     },
     {
         id: 5,
-        name:"Contacts",
+        name:"КОНТАКТЫ",
         url: "#contacts"
     }
 ]

@@ -1,0 +1,22 @@
+.btn {
+    font-weight: 500;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    background: none;
+    font-size: 16px;
+    transition: .2s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .07);
+    cursor: pointer;
+}
+
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff
+}
+
+.btn-outline-white {
+    border-color: #fff;
+    color: #fff;
+}
