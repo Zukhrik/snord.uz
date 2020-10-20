@@ -5,6 +5,7 @@ import rainbow from './helper'
 
 //style
 import './about.css'
+import Button from '../../Components/Button'
 
 export default () => {
 
@@ -22,12 +23,20 @@ export default () => {
                     <button
                         key={item.id}
                         onClick={() => changeColor(item.color)}
-                        style={{ color: color ===item.color? color : 'unset' }}
+                        style={{ color: color === item.color? color : 'unset' }}
                     >
                         {item.name}
                     </button>
                 ))
             }
+
+            <Button className="btn-blue">
+                Продукция
+            </Button>
+
+            <Button className="btn-outline-blue">
+                Показать
+            </Button>
         </div>
     )
 }

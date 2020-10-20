@@ -7,7 +7,7 @@
 .btn {
     font-weight: 500;
     padding: 10px 16px;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     background: none;
     font-size: 16px;
     transition: .2s ease;
@@ -27,23 +27,41 @@
 .btn-outline-white {
     border-color: #fff;
     color: #fff;
+    background: none;
 }
 
 
         /*Button for product list*/
 
-/*Standard button*/
-.prev-btn {
-    font-weight: 500;
-    padding: 5px 12px;
-    border: 1px solid transparent;
+
+.btn-blue {
+    color: rgba(95, 182, 231, 1);
+    border-color: rgba(95, 182, 231, 1);
     background: none;
-    font-size: 14px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, .07);
+    min-width: 80px;
+    min-height: 30px;
 }
 
-.prev-button-blue {
+.btn-blue:hover {
+    color: #fff;
     background: rgba(95, 182, 231, 1);
+    min-width: 80px;
+    min-height: 30px;
     border: 1px solid rgba(95, 182, 231, 1);
+}
+
+.btn-outline-blue {
+    color: #fff;
+    background: rgba(95, 182, 231, 1);
+    min-width: 80px;
+    min-height: 30px;
+    border: none;
+}
+
+.btn-outline-blue:hover {
     color: rgba(95, 182, 231, 1);
+    background: #fff;
+    border: 1px solid rgba(95, 182, 231, 1);
+    min-width: 80px;
+    min-height: 30px;
 }
