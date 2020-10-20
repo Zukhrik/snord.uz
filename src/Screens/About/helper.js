@@ -1,31 +1,39 @@
+const COLOR = {
+    YELLOW: 'yellow',
+    RED: 'red',
+    BLUE: 'blue',
+    AQUA: 'aqua',
+    GREEN: 'green'
+}
+
 export default [
     {
         id: 1,
         name: "first",
-        color: "blue"
+        color: COLOR.AQUA
     },
 
     {
         id: 2,
         name: "second",
-        color: "aqua"
+        color: COLOR.RED
     },
 
     {
         id: 3,
         name: "third",
-        color: "green"
+        color: COLOR.BLUE
     },
 
     {
         id: 4,
         name: "fourth",
-        color: "yellow"
+        color: COLOR.GREEN
     },
 
     {
         id: 5,
         name: "fifth",
-        color: "red"
+        color: COLOR.YELLOW
     }
 ]

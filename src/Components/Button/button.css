@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/*Button for Home list*/
+
+
+/*Standard button*/
 .btn {
     font-weight: 500;
     padding: 10px 16px;
@@ -9,14 +15,35 @@
     cursor: pointer;
 }
 
-
+/*White button*/
 .btn-white {
     background-color: #fff;
     color: #000;
     border-color: #fff
 }
 
+
+/*Transparent button*/
 .btn-outline-white {
     border-color: #fff;
     color: #fff;
+}
+
+
+        /*Button for product list*/
+
+/*Standard button*/
+.prev-btn {
+    font-weight: 500;
+    padding: 5px 12px;
+    border: 1px solid transparent;
+    background: none;
+    font-size: 14px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .07);
+}
+
+.prev-button-blue {
+    background: rgba(95, 182, 231, 1);
+    border: 1px solid rgba(95, 182, 231, 1);
+    color: rgba(95, 182, 231, 1);
 }
