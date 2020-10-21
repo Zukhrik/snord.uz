@@ -5,8 +5,7 @@ import './button.css'
 
 export default (props) => {
     const { children, className } = props
-    // const class_name = `btn ${className}`
-    const class_name = 'btn' + className ? ' ' + className : ''
+    const class_name = `btn ${className}`
 
     return (
         <button className={class_name}>
