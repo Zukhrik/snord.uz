@@ -1,0 +1,34 @@
+.section-heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.reason-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #5FB6E7;
+    letter-spacing: 1px;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #3C3F41;
+    margin: 20px 0 10px 0; 
+}
+
+.section-description {
+    max-width: 450px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0;
+    color: rgba(0,0,0, .5);
+    font-family: 'Montserrat', sans-serif;
+}

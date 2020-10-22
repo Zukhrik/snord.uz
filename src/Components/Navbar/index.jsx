@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 //helper
 import menus from './helper'
@@ -6,35 +7,64 @@ import logo from '../../Assets/images/logo.png'
 
 //Styles
 import './navbar.css'
+import { useEffect } from 'react'
 
 export default () => {
-    const [active, setActive] = useState(null)
+    const [active, setActive] = useState('#home')
+    const [fixedProp, setFixedProp] = useState(false)
 
     const handleClick = (value) => {
         setActive(value)
     }
 
-    return (
-        <div className="navbar">
-            <a href="#home" className="logo" onClick={() => setActive('#home')}>
-                <img src={logo} alt="logo" />
-            </a>
-            <ul className="nav-menu">
-                {
-                    menus.map((item) => (
-                        <li
-                            key={item.id} 
-                            onClick={() => handleClick(item.url)}
-                            className={`nav-menu-item${active === item.url ? ' active' : ''}`}
-                        >
-                            <a href={item.url} className="nav-menu-link">
-                                {item.name}
-                            </a>
-                        </li>
-                    ))
-                }
+    const changeFixedProp = () => {
+        if (window.scrollY > 50) {
+            setFixedProp(true)
+        } else {
+            setFixedProp(false)
+        }
+    }
 
-            </ul>
+    useEffect(() => {
+        changeFixedProp()
+        window.addEventListener('scroll', (e) => {
+            changeFixedProp()
+        })
+
+        return () => {
+            window.removeEventListener('scroll')
+        }
+    }, [])
+
+    return (
+        <div className={`navbar${fixedProp ? ' navbar-fixed' : ''}`}>
+            <div className="container">
+                <div className="navbar-wrapper">
+
+                    <a href="#home" className="logo" onClick={() => setActive('#home')}>
+                        <img src={logo} alt="logo" />
+                    </a>
+                    <ul className="nav-menu">
+                        {
+                            menus.map((item) => (
+                                <li
+                                    key={item.id}
+                                    onClick={() => handleClick(item.url)}
+                                    className={`nav-menu-item${active === item.url ? ' active' : ''}`}
+                                >
+                                    <AnchorLink 
+                                    href={item.url}
+                                    offset={() => 72}
+                                    className="nav-menu-link"
+                                    >
+                                        {item.name}
+                                    </AnchorLink>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }

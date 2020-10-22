@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 
 body {
   margin: 0;
@@ -15,7 +16,11 @@ code {
 }
 
 .screen-basic {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.common-section {
+  padding: 40px 0;
 }
 
 a {
@@ -27,4 +32,16 @@ a {
   margin: 0 auto;
   max-width: 1200px;
   min-height: 1rem;
+}
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.list-item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

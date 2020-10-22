@@ -1,3 +1,5 @@
 export {default as Home} from './Home'
-export {default as News} from './News'
+export {default as Electric} from './Electric'
 export {default as About} from './About'
+export {default as Medicine} from './Medicine'
+export {default as Contacts} from './Contacts'

@@ -11,13 +11,13 @@ export default [
     },
     {
         id: 3,
-        name: "ОБОРУДОВАНИЕ",
-        url: "#equipment"
+        name: "Мед.оборудование",
+        url: "#medicine"
     },
     {
         id: 4,
-        name:"НОВОСТИ",
-        url: "#news"
+        name:"Электро.оборудование",
+        url: "#electric"
     },
     {
         id: 5,

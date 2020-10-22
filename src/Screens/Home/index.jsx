@@ -9,13 +9,15 @@ import './home.css'
 
 export default () => {
     return (
+        <>
+        <Navbar />
         <div className="screen-basic" id="home">
             <div className="home-wrapper">
                 <div className="container">
-                    <Navbar />
                     <HomeBody />
                 </div>
             </div>
         </div>
+        </>
     )
 }

@@ -1,39 +1,22 @@
-const COLOR = {
-    YELLOW: 'yellow',
-    RED: 'red',
-    BLUE: 'blue',
-    AQUA: 'aqua',
-    GREEN: 'green'
-}
+import {HandShakeSvg, MoneySvg, ShieldSvg} from '../../Assets/icon'
 
 export default [
     {
         id: 1,
-        name: "first",
-        color: COLOR.AQUA
+        title: 'Качество',
+        description: 'Соответствие товара со спецификацией и требованием потребителя',
+        icon: ShieldSvg
     },
-
     {
         id: 2,
-        name: "second",
-        color: COLOR.RED
+        title: 'Сервис',
+        description: 'Квалифицированный персонал, качественная техническая помощь',
+        icon: HandShakeSvg
     },
-
     {
         id: 3,
-        name: "third",
-        color: COLOR.BLUE
-    },
-
-    {
-        id: 4,
-        name: "fourth",
-        color: COLOR.GREEN
-    },
-
-    {
-        id: 5,
-        name: "fifth",
-        color: COLOR.YELLOW
+        title: 'Низкие цены',
+        description: 'Хорошее качество по доступным ценам',
+        icon: MoneySvg
     }
 ]

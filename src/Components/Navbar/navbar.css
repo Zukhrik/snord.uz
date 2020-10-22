@@ -1,6 +1,16 @@
-.navbar{
+.navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 15;
+    transition: all .4s ease;
+}
+
+.navbar-wrapper{
     display: flex;
     align-items: center;
+    height: 72px;
 }
 
 .logo {
@@ -37,7 +47,7 @@
     position: relative;
     border: 1px solid transparent;
     line-height: 1;
-    transition: .2s ease;
+    transition: .3s ease;
     border-radius: 4px;
     opacity: .7;
 }
@@ -47,4 +57,18 @@
     border-color:#fff;
     opacity: 1;
     transform: translateX(-2px);
+}
+
+.navbar-fixed {
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0, .2);
+}
+
+.navbar-fixed .nav-menu-link{
+    color: #5FB6E7;
+}
+
+.navbar-fixed .nav-menu-link:hover,
+.navbar-fixed .nav-menu-item.active .nav-menu-link {
+    border-color: #5FB6E7;
 }

@@ -1,42 +1,45 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-//helper
-import rainbow from './helper'
+import aboutData from './helper'
+
+import SectionHeading from '../../Components/SectionHeading'
 
 //style
 import './about.css'
-import Button from '../../Components/Button'
 
 export default () => {
 
-    const [color, setColor] = useState('')
-
-    const changeColor = (colorString) => {
-        setColor(colorString)
-    }
-
-
     return (
-        <div className="buttonsBg">
-            {
-                rainbow.map(item => (
-                    <button
-                        key={item.id}
-                        onClick={() => changeColor(item.color)}
-                        style={{ color: color === item.color? color : 'unset' }}
-                    >
-                        {item.name}
-                    </button>
-                ))
-            }
+        <div className="common-section" id="about">
+            <div className="container">
+                <SectionHeading
+                    reasonText="Почему именно мы"
+                    heading="НАШИ ПРЕИМУЩЕСТВА"
+                    description="Индивидуальный подход к каждому клиенту с проверенными производителями"
+                />
 
-            <Button className="btn-blue">
-                Продукция
-            </Button>
-
-            <Button className="btn-outline-blue">
-                Показать
-            </Button>
+                <div className="about-wrapper">
+                    {
+                        aboutData.map(item => {
+                            const Icon = item.icon
+                            return (
+                                <div className="about-item" key={item.id}>
+                                    <Icon />
+                                    <h6>
+                                        {item.title}
+                                    </h6>
+                                    <p>
+                                        {
+                                            item.description
+                                        }
+                                    </p>
+                                </div>
+                            )
+                        })
+                    }
+                   
+                </div>
+            </div>
         </div>
     )
 }
