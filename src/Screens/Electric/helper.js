@@ -3,13 +3,13 @@ export default [
         id: 1,
         title: 'QUANTUM PERKINS',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
     },
     {
         id: 2,
         title: 'QUANTUM BAUDOUIN',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN',
-        img: require('../../Assets/content-img/BAUDOUIN.png')
+        img: require('../../Assets/content-img/BAUDOUIN.png'),
     },
     {
         id: 3,

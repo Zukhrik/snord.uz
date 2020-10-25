@@ -3,12 +3,12 @@ import React from 'react'
 //Styles
 import './button.css'
 
-export default (props) => {
-    const { children, className } = props
+export default ({className, children, ...props}) => {
+
     const class_name = `btn ${className}`
 
     return (
-        <button className={class_name}>
+        <button className={class_name} {...props}>
             {children}
         </button>
     )

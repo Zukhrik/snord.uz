@@ -1,0 +1,20 @@
+
+
+.list-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 16px;
+}
+
+.list-info {
+    text-align: end;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 8px;
+    color: rgba(0,0,0, .5);
+    font-family: 'Montserrat', sans-serif;
+}
