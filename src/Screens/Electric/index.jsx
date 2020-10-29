@@ -8,19 +8,19 @@ import ListContent from '../../Components/ListContent'
 
 
 export default () => {
-    const [open, setOpen] = useState(false)
+    const [openObj, setOpenObj] = useState(false)
     const [selectedId, setSelectedId] = useState(null)
 
     const handleSelect = (id) => {
-        setOpen(true)
+        setOpenObj(true)
         setSelectedId(id)
     }
 
     return (
         <>
             <Modal 
-                setIsOpen={setOpen}
-                modalIsOpen={open}
+                setIsOpen={setOpenObj}
+                modalIsOpen={openObj}
                 component={<ListContent
                     id={selectedId}
                     allData={electricList}

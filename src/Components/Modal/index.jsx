@@ -1,16 +1,7 @@
 import React from 'react'
 import ReactModal from 'react-modal';
 
-const customStyles = {
-    content: {
-        top: '50%',
-        left: '50%',
-        right: 'auto',
-        bottom: 'auto',
-        marginRight: '-50%',
-        transform: 'translate(-50%, -50%)'
-    }
-};
+import './modal.css'
 
 ReactModal.setAppElement('#yourAppElement')
 
@@ -24,11 +15,15 @@ export const Modal = ({ modalIsOpen, setIsOpen, component }) => {
         <ReactModal
             isOpen={modalIsOpen}
             onRequestClose={closeModal}
-            style={customStyles}
+            className="custom-modal"
+            overlayClassName="custom-modal-overlay"
         >
-            {
-                component
-            }
+            <div className="custom-modal-body">
+                {
+                    component
+                }
+            </div>
+
         </ReactModal>
     )
 }
