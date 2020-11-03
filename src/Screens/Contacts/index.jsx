@@ -1,38 +1,29 @@
 import React from 'react'
-import { useState } from 'react'
 import SectionHeading from '../../Components/SectionHeading/'
+import health from '../../Assets/images/CarestreamHealthLogo.jpg'
+import aggye from '../../Assets/images/Aggye.png'
+
+//style
+import './contact.css'
 
 export default () => {
-    const [enterKey, setEnterKey] = useState('')
-    const pressKey = (e) => {
-        setEnterKey(e.key)
-        console.log(e.nativeEvent)
-    }
-
-    const [val, setVal] = useState('')
-    const changeValue = (e) => {
-        setVal(e.target.val)
-    }
 
     return (
         <div className="common-section" id="contacts">
             <div className="container">
                 <SectionHeading
-                    reasonText="Почему именно мы"
-                    heading="Наши преимущества"
+                    reasonText="НАС ЦЕНЯТ"
+                    heading="НАШИ ПАРТНЕРЫ"
                     description="Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее"
                 />
-                <input
-                    type="text" 
-                    value={ enterKey }
-                    onKeyPress={ pressKey }
-                />
-
-                <input
-                    type="text"
-                    value={val}
-                    onBlur={changeValue}
-                />
+                <div className="partner-wrapper">
+                    <div className="partner-item">
+                        <img src={health} alt="partner-logo" />  
+                    </div>
+                    <div className="partner-item">
+                        <img src={aggye} alt="partner-logo"/>
+                    </div>
+                </div>
             </div>
         </div>
     )
