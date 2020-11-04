@@ -10,6 +10,7 @@
     outline: none;
     overflow: hidden;
     max-height: calc(100vh - 48px);
+    padding-bottom: 20px;
 }
 
 .custom-modal-overlay {
@@ -39,6 +40,6 @@
 }
 
 .custom-modal-body img{
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }

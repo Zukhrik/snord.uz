@@ -15,6 +15,8 @@ export default ({id, allData}) => {
 
     }, [id, allData])
 
+    const CustomComponent = currentData && currentData.component ? currentData.component : <></>
+
     return (
         <div>
             {
@@ -27,9 +29,10 @@ export default ({id, allData}) => {
                         {/* {currentData.img} */}
                         <img src={currentData.img} alt=""/>
                     </div>
-                    <div className='list-info'>
+                    {/* <div className='list-info'>
                         {currentData.content}
-                    </div>
+                    </div> */}
+                        <CustomComponent />
                 </>
             }
         </div>

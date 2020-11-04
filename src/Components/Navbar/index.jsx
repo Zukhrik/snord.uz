@@ -53,9 +53,9 @@ export default () => {
                                     className={`nav-menu-item${active === item.url ? ' active' : ''}`}
                                 >
                                     <AnchorLink 
-                                    href={item.url}
-                                    offset={() => 72}
-                                    className="nav-menu-link"
+                                        href={item.url}
+                                        offset={() => 72}
+                                        className="nav-menu-link"
                                     >
                                         {item.name}
                                     </AnchorLink>
