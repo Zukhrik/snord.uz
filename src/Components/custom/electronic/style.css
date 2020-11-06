@@ -1,0 +1,20 @@
+.table-head {
+    background: #4A4A49;
+    color: #fff;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.description {
+    text-align: left;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}

@@ -75,37 +75,43 @@ export default [
         id: 11,
         title: 'QUANTUM PERKINS 66 — 150 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS 66 — 150 КВА',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
+        component: electronicCustom[11]
     },
     {
         id: 12,
         title: 'QUANTUM PERKINS 165 — 300 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS 165 — 300 КВА',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
+        component: electronicCustom[12]
     },
     {
         id: 13,
         title: 'QUANTUM PERKINS 330 — 630 КВ',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS 330 — 630 КВ',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
+        component: electronicCustom[13]
     },
     {
         id: 14,
         title: 'QUANTUM PERKINS 650 — 825 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS 650 — 825 КВА',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
+        component: electronicCustom[14]
     },
     {
         id: 15,
         title: 'QUANTUM PERKINS 900 — 1385 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS 900 — 1385 КВА',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
+        component: electronicCustom[15]
     },
     {
         id: 16,
         title: 'QUANTUM PERKINS 1500 — 2500 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM PERKINS 1500 — 2500 КВА',
-        img: require('../../Assets/content-img/PERKINS.png')
+        img: require('../../Assets/content-img/PERKINS.png'),
+        component: electronicCustom[16]
     },
     {
         id: 17,

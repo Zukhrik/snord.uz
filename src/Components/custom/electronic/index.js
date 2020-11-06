@@ -8,6 +8,12 @@ import { Custom7 } from "./custom7";
 import { Custom8 } from "./custom8";
 import { Custom9 } from "./custom9";
 import { Custom10 } from "./custom10";
+import { Custom11 } from "./custom11";
+import { Custom12 } from "./custom12";
+import { Custom13 } from "./custom13";
+import { Custom14 } from "./custom14";
+import { Custom15 } from "./custom15";
+import { Custom16 } from "./custom16";
 
 export default {
     1: Custom1,
@@ -19,5 +25,11 @@ export default {
     7: Custom7,
     8: Custom8,
     9: Custom9,
-    10: Custom10    
+    10: Custom10,
+    11: Custom11,
+    12: Custom12,
+    13: Custom13,
+    14: Custom14,
+    15: Custom15,
+    16: Custom16
 }
