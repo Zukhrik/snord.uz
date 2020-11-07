@@ -118,36 +118,42 @@ export default [
         title: 'QUANTUM BAUDOUIN 72 — 165 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN 72 — 165 КВА',
         img: require('../../Assets/content-img/BAUDOUIN.png'),
+        component: electronicCustom[17]
     },
     {
         id: 18,
         title: 'QUANTUM BAUDOUIN 220 — 385 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN 220 — 385 КВА',
         img: require('../../Assets/content-img/BAUDOUIN.png'),
+        component: electronicCustom[18]
     },
     {
         id: 19,
         title: 'QUANTUM BAUDOUIN 440 — 715 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN 440 — 715 КВА',
         img: require('../../Assets/content-img/BAUDOUIN.png'),
+        component: electronicCustom[19]
     },
     {
         id: 20,
         title: 'QUANTUM BAUDOUIN 750 — 1120 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN 750 — 1120 КВА',
         img: require('../../Assets/content-img/BAUDOUIN.png'),
+        component: electronicCustom[20]
     },
     {
         id: 21,
         title: 'QUANTUM BAUDOUIN 1250 — 1700 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN 1250 — 1700 КВА',
         img: require('../../Assets/content-img/BAUDOUIN.png'),
+        component: electronicCustom[21]
     },
     {
         id: 22,
         title: 'QUANTUM BAUDOUIN 1900 — 2750 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM BAUDOUIN 1900 — 2750 КВА',
         img: require('../../Assets/content-img/BAUDOUIN.png'),
+        component: electronicCustom[22]
     },
     {
         id: 23,
