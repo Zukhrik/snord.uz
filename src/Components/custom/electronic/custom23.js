@@ -1,13 +1,13 @@
 import React from 'react'
 
-export const Custom4 = () => (
+export const Custom23 = () => (
     <div className="wrapper">
         <div className="product-info">
             <div>
                 <span>ДВИГАТЕЛЬ</span>
                 <ul>
                     <li>
-                        Дизельный двигатель серии FPT IVECO
+                        Дизельный двигатель серии DEUTZ
                     </li>
                     <li>
                         4 цикла, с водяным охлаждением, двигатель с турбонаддувом
@@ -153,124 +153,110 @@ export const Custom4 = () => (
             <table>
                 <tr class="table-head">
                     <th class="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
-                    <th>QUANTUM I 0033</th>
-                    <th>QUANTUM I 0055</th>
-                    <th>QUANTUM I 0066</th>
-                    <th>QUANTUM I 0082</th>
-                    <th>QUANTUM I 0090</th>
-                    <th>QUANTUM I 0112</th>
+                    <th>QUANTUM D 0165</th>
+                    <th>QUANTUM D 0275</th>
+                    <th>QUANTUM D 0290</th>
+                    <th>QUANTUM D 0385</th>
+                    <th>QUANTUM D 0400</th>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                    <td>33</td>
-                    <td>55</td>
-                    <td>66</td>
-                    <td>82</td>
-                    <td>90</td>
-                    <td>112</td>
+                    <td>165</td>
+                    <td>275</td>
+                    <td>290</td>
+                    <td>385</td>
+                    <td>400</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
-                    <td>26,4</td>
-                    <td>44</td>
-                    <td>52,8</td>
-                    <td>65,6</td>
-                    <td>72</td>
-                    <td>89,6</td>
+                    <td>132</td>
+                    <td>220</td>
+                    <td>232</td>
+                    <td>308</td>
+                    <td>320</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
-                    <td>30</td>
-                    <td>50</td>
-                    <td>60</td>
-                    <td>75</td>
-                    <td>82</td>
-                    <td>102</td>
+                    <td>150</td>
+                    <td>250</td>
+                    <td>264</td>
+                    <td>350</td>
+                    <td>364</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                    <td>24</td>
-                    <td>40</td>
-                    <td>48</td>
-                    <td>60</td>
-                    <td>65</td>
-                    <td>81</td>
+                    <td>120</td>
+                    <td>200</td>
+                    <td>211</td>
+                    <td>280</td>
+                    <td>291</td>
                 </tr>
                 <tr>
                     <td class="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
-                    <td>900x1900x1220</td>
-                    <td>1000x2300x1420</td>
-                    <td>1000x2600x1410</td>
-                    <td>1000x2600x1410</td>
-                    <td>1000x2600x1410</td>
-                    <td>1100x3050x1690</td>
+                    <td>1100x3220x1690</td>
+                    <td>1400x3205x2595</td>
+                    <td>1400x3205x2595</td>
+                    <td>1600x3250x2510</td>
+                    <td>1600x3250x2510</td>
                 </tr>
                 <tr>
                     <td class="description">ВЕС С КОЖУХОМ КГ</td>
-                    <td>932,8</td>
-                    <td>1207,3</td>
-                    <td>1338,3</td>
-                    <td>1420,3</td>
-                    <td>1425,3</td>
-                    <td>1735,3</td>
+                    <td>2036</td>
+                    <td>2826,25</td>
+                    <td>2826,25</td>
+                    <td>4084</td>
+                    <td>4084</td>
                 </tr>
                 <tr>
                     <td class="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
-                    <td>900x1600x1220</td>
-                    <td>1000x1900x1420</td>
-                    <td>1000x2200x1410</td>
-                    <td>1000x2200x1410</td>
-                    <td>1000x2200x1410</td>
-                    <td>1100x2600x1690</td>
+                    <td>1100x2770x1690</td>
+                    <td>1400x2750x2265</td>
+                    <td>1400x2750x2265</td>
+                    <td>1600x2995x2240</td>
+                    <td>1600x2995x2240</td>
                 </tr>
                 <tr>
                     <td class="description">ВЕС КГ</td>
-                    <td>778,8</td>
-                    <td>1032,3</td>
-                    <td>1141,3</td>
-                    <td>1223,3</td>
-                    <td>1228,3</td>
-                    <td>1482,3</td>
+                    <td>1781</td>
+                    <td>2424,75</td>
+                    <td>2424,75</td>
+                    <td>3527</td>
+                    <td>3527</td>
                 </tr>
                 <tr>
                     <td class="description">МАРКА</td>
-                    <td>IVECO</td>
-                    <td>IVECO</td>
-                    <td>IVECO</td>
-                    <td>IVECO</td>
-                    <td>IVECO</td>
-                    <td>IVECO</td>
+                    <td>DEUTZ</td>
+                    <td>DEUTZ</td>
+                    <td>DEUTZ</td>
+                    <td>DEUTZ</td>
+                    <td>DEUTZ</td>
                 </tr>
                 <tr>
                     <td class="description">ТИП</td>
-                    <td>80313AM1P</td>
-                    <td>NEF45SM1A</td>
-                    <td>NEF45SM1A</td>
-                    <td>NEF45SM2A</td>
-                    <td>NEF45SM3</td>
-                    <td>NEF45SM3</td>
+                    <td>WP6D152E200</td>
+                    <td>BF6M1015-LA GA</td>
+                    <td>BF6M1015C-LA G1A</td>
+                    <td>BF6M1015CP-LA G</td>
+                    <td>BF6M1015CP-LA G</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                    <td>31</td>
-                    <td>58,8</td>
-                    <td>58,8</td>
-                    <td>72,7</td>
-                    <td>81</td>
-                    <td>96,2</td>
+                    <td>152</td>
+                    <td>231</td>
+                    <td>250</td>
+                    <td>365</td>
+                    <td>365</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                    <td>26,4</td>
-                    <td>52,8</td>
-                    <td>52,8</td>
-                    <td>65,6</td>
-                    <td>72</td>
-                    <td>89,6</td>
+                    <td>138</td>
+                    <td>220</td>
+                    <td>227,2727273</td>
+                    <td>328</td>
+                    <td>328</td>
                 </tr>
                 <tr>
                     <td class="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
-                    <td>1500</td>
                     <td>1500</td>
                     <td>1500</td>
                     <td>1500</td>
@@ -284,56 +270,49 @@ export const Custom4 = () => (
                     <td>4</td>
                     <td>4</td>
                     <td>4</td>
-                    <td>4</td>
                 </tr>
                 <tr>
                     <td class="description">ЛИТРАЖ</td>
-                    <td>2,9</td>
-                    <td>4,5</td>
-                    <td>4,5</td>
-                    <td>4,5</td>
-                    <td>4,5</td>
-                    <td>4,5</td>
+                    <td>6,75</td>
+                    <td>11,906</td>
+                    <td>11,906</td>
+                    <td>11,906</td>
+                    <td>11,906</td>
                 </tr>
                 <tr>
                     <td class="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
-                    <td>3 IN LINE</td>
-                    <td>4 IN LINE</td>
-                    <td>4 IN LINE</td>
-                    <td>4 IN LINE</td>
-                    <td>4 IN LINE</td>
-                    <td>4 IN LINE</td>
+                    <td>6 IN LINE</td>
+                    <td>6 V</td>
+                    <td>6 V</td>
+                    <td>6 V</td>
+                    <td>6 V</td>
                 </tr>
                 <tr>
                     <td class="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
-                    <td>115X104</td>
-                    <td>104 x 132</td>
-                    <td>104 x 132</td>
-                    <td>104 x 132</td>
-                    <td>104 x 132</td>
-                    <td>104 x 132</td>
+                    <td>105 x 130</td>
+                    <td>132 x 145</td>
+                    <td>132 x 145</td>
+                    <td>132 x 145</td>
+                    <td>132 x 145</td>
                 </tr>
                 <tr>
                     <td class="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
-                    <td>17 : 1</td>
-                    <td>17,5:1</td>
-                    <td>17,5:1</td>
-                    <td>17,5:1</td>
-                    <td>17,5:1</td>
-                    <td>17,5:1</td>
+                    <td>18 : 1</td>
+                    <td>16,5:1</td>
+                    <td>16,5:1</td>
+                    <td>16,5:1</td>
+                    <td>16,5:1</td>
                 </tr>
                 <tr>
                     <td class="description">ТИП РЕГУЛЯТОРА</td>
-                    <td>MECHANIC</td>
-                    <td>MECHANIC</td>
-                    <td>MECHANIC</td>
-                    <td>MECHANIC</td>
-                    <td>MECHANIC</td>
-                    <td>MECHANIC</td>
+                    <td>ЭЛЕКТРОНИКА</td>
+                    <td>ЭЛЕКТРОНИКА</td>
+                    <td>ЭЛЕКТРОНИКА</td>
+                    <td>ЭЛЕКТРОНИКА</td>
+                    <td>ЭЛЕКТРОНИКА</td>
                 </tr>
                 <tr>
                     <td class="description">ИНДУКЦИОННЫЙ</td>
-                    <td>-</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
@@ -347,7 +326,6 @@ export const Custom4 = () => (
                     <td>DIRECT</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
-                    <td>DIRECT</td>
                 </tr>
                 <tr>
                     <td class="description">СИСТЕМА ОХЛАЖДЕНИЯ</td>
@@ -356,63 +334,56 @@ export const Custom4 = () => (
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
-                    <td>ВОДЯНОЕ</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
-                    <td>7,05</td>
-                    <td>13,7</td>
-                    <td>13,7</td>
-                    <td>17,1</td>
-                    <td>19,4</td>
-                    <td>22</td>
+                    <td>32,64</td>
+                    <td>48,53</td>
+                    <td>53,2</td>
+                    <td>76,53</td>
+                    <td>76,53</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
-                    <td>5,64</td>
-                    <td>10,2</td>
-                    <td>10,2</td>
-                    <td>12,7</td>
-                    <td>15,4</td>
-                    <td>16,2</td>
+                    <td>24,56</td>
+                    <td>36,4</td>
+                    <td>39,9</td>
+                    <td>57,4</td>
+                    <td>57,4</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
-                    <td>3,76</td>
-                    <td>7</td>
-                    <td>7</td>
-                    <td>8,6</td>
-                    <td>9,6</td>
-                    <td>11</td>
+                    <td>16,65</td>
+                    <td>24,26</td>
+                    <td>26,6</td>
+                    <td>38,25</td>
+                    <td>38,25</td>
                 </tr>
                 <tr>
                     <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
-                    <td>8,8</td>
-                    <td>12,8</td>
-                    <td>12,8</td>
-                    <td>12,8</td>
-                    <td>12,8</td>
-                    <td>12,8</td>
+                    <td>16</td>
+                    <td>38</td>
+                    <td>38</td>
+                    <td>38</td>
+                    <td>38</td>
                 </tr>
                 <tr>
                     <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
-                    <td>14</td>
-                    <td>18,5</td>
-                    <td>18,5</td>
-                    <td>18,5</td>
-                    <td>18,5</td>
-                    <td>18,5</td>
+                    <td>28</td>
+                    <td>62</td>
+                    <td>62</td>
+                    <td>67</td>
+                    <td>67</td>
                 </tr>
                 <tr>
                     <td class="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
-                    <td>82</td>
-                    <td>139</td>
-                    <td>139</td>
-                    <td>139</td>
-                    <td>139</td>
                     <td>275</td>
+                    <td>575</td>
+                    <td>575</td>
+                    <td>770</td>
+                    <td>770</td>
                 </tr>
             </table>
         </div>
     </div>
-) 
+)

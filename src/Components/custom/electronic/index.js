@@ -20,6 +20,12 @@ import { Custom19 } from "./custom19";
 import { Custom20 } from "./custom20";
 import { Custom21 } from "./custom21";
 import { Custom22 } from "./custom22";
+import { Custom23 } from "./custom23";
+import { Custom24 } from "./custom24";
+import { Custom25 } from "./custom25";
+import { Custom26 } from "./custom26";
+import { Custom27 } from "./custom27";
+import { Custom28 } from "./custom28";
 
 export default {
     1: Custom1,
@@ -43,5 +49,11 @@ export default {
     19: Custom19,
     20: Custom20,
     21: Custom21,
-    22: Custom22
+    22: Custom22,
+    23: Custom23,
+    24: Custom24,
+    25: Custom25,
+    26: Custom26,
+    27: Custom27,
+    28: Custom28
 }

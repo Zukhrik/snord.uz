@@ -159,37 +159,43 @@ export default [
         id: 23,
         title: 'QUANTUM DEUTZ 165 — 400 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM DEUTZ 165 — 400 КВА',
-        img: require('../../Assets/content-img/deutz.png')
+        img: require('../../Assets/content-img/deutz.png'),
+        component: electronicCustom[23]
     },
     {
         id: 24,
         title: 'QUANTUM DEUTZ 440 — 850 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM DEUTZ 440 — 850 КВА',
-        img: require('../../Assets/content-img/deutz.png')
+        img: require('../../Assets/content-img/deutz.png'),
+        component: electronicCustom[24]
     },
     {
         id: 25,
         title: 'QUANTUM FPT IVECO 138 — 275 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM FPT IVECO 138 — 275 КВА',
-        img: require('../../Assets/content-img/fpt-iveco.png')
+        img: require('../../Assets/content-img/fpt-iveco.png'),
+        component: electronicCustom[25]
     },
     {
         id: 26,
         title: 'QUANTUM FPT IVECO 332 — 660 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM FPT IVECO 332 — 660 КВА',
-        img: require('../../Assets/content-img/fpt-iveco.png')
+        img: require('../../Assets/content-img/fpt-iveco.png'),
+        component: electronicCustom[26]
     },
     {
         id: 27,
         title: 'QUANTUM VOLVO 278 — 452 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM VOLVO 278 — 452 КВА',
-        img: require('../../Assets/content-img/volvo.png')
+        img: require('../../Assets/content-img/volvo.png'),
+        component: electronicCustom[27]
     },
     {
         id: 28,
         title: 'QUANTUM VOLVO 501 — 770 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM VOLVO 501 — 770 КВА',
-        img: require('../../Assets/content-img/volvo.png')
+        img: require('../../Assets/content-img/volvo.png'),
+        component: electronicCustom[28]
     },
     {
         id: 29,
