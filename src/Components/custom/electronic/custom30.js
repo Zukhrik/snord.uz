@@ -1,13 +1,13 @@
 import React from 'react'
 
-export const Custom8 = () => (
+export const Custom30 = () => (
     <div className="wrapper">
         <div className="product-info">
             <div>
                 <span>ДВИГАТЕЛЬ</span>
                 <ul>
                     <li>
-                        Дизельный двигатель серии RICARDO
+                        Дизельный двигатель серии YANG DONG
                     </li>
                     <li>
                         4 цикла, с водяным охлаждением, двигатель с турбонаддувом
@@ -153,121 +153,160 @@ export const Custom8 = () => (
             <table>
                 <tr class="table-head">
                     <th class="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
-                    <th>QUANTUM R 0035</th>
-                    <th>QUANTUM R 0050</th>
-                    <th>QUANTUM R 0070</th>
+                    <th>QUANTUM YD 0110</th>
+                    <th>QUANTUM YD 0120</th>
+                    <th>QUANTUM YD 0150</th>
+                    <th>QUANTUM YD 0165</th>
+                    <th>QUANTUM YD 0070</th>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                    <td>35</td>
-                    <td>50</td>
-                    <td>70</td>
+                    <td>110</td>
+                    <td>120</td>
+                    <td>150</td>
+                    <td>165</td>
+                    <td>200</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
-                    <td>28</td>
-                    <td>40</td>
-                    <td>56</td>
+                    <td>88</td>
+                    <td>96</td>
+                    <td>120</td>
+                    <td>132</td>
+                    <td>160</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
-                    <td>32</td>
-                    <td>45</td>
-                    <td>65</td>
+                    <td>100</td>
+                    <td>109</td>
+                    <td>136</td>
+                    <td>150</td>
+                    <td>182</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                    <td>25,6</td>
-                    <td>36</td>
-                    <td>52</td>
+                    <td>80</td>
+                    <td>87</td>
+                    <td>109</td>
+                    <td>120</td>
+                    <td>145</td>
                 </tr>
                 <tr>
                     <td class="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
-                    <td>1000x2300x1420</td>
-                    <td>1000x2300x1420</td>
-                    <td>1000x2600x1410</td>
+                    <td>1000x2600x1510</td>
+                    <td>1100x3100x1690</td>
+                    <td>1100x3100x1690</td>
+                    <td>1100x3220x1690</td>
+                    <td>1100x3220x1691</td>
                 </tr>
                 <tr>
                     <td class="description">ВЕС С КОЖУХЕ КГ</td>
-                    <td>957</td>
-                    <td>982</td>
-                    <td>1202</td>
+                    <td>1342,7</td>
+                    <td>1697</td>
+                    <td>1817</td>
+                    <td>1977</td>
+                    <td>2032</td>
                 </tr>
                 <tr>
                     <td class="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
-                    <td>1000x1900x1420</td>
-                    <td>1000x1900x1420</td>
-                    <td>1000x2200x1410</td>
+                    <td>1000x2200x1510</td>
+                    <td>1100x2600x1690</td>
+                    <td>1100x2600x1690</td>
+                    <td>1100x2770x1690</td>
+                    <td>1100x2770x1691</td>
                 </tr>
                 <tr>
                     <td class="description">ВЕС КГ</td>
-                    <td>782</td>
-                    <td>807</td>
-                    <td>1005</td>
+                    <td>1135,7</td>
+                    <td>1444</td>
+                    <td>1564</td>
+                    <td>1722</td>
+                    <td>1777</td>
                 </tr>
                 <tr>
                     <td class="description">МАРКА</td>
-                    <td>RICARDO</td>
-                    <td>RICARDO</td>
-                    <td>RICARDO</td>
+                    <td>YANG DONG</td>
+                    <td>YANG DONG</td>
+                    <td>YANG DONG</td>
+                    <td>YANG DONG</td>
+                    <td>YANG DONG</td>
                 </tr>
                 <tr>
                     <td class="description">ТИП</td>
-                    <td>K4100DS</td>
-                    <td>K4100ZDS</td>
-                    <td>N4105ZDS</td>
+                    <td>Y4110ZLD</td>
+                    <td>LR4M3L</td>
+                    <td>LR4N5LP</td>
+                    <td>LR6B3L-D</td>
+                    <td>LR6M3L-DA</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                    <td>33</td>
-                    <td>47</td>
-                    <td>62</td>
+                    <td>99</td>
+                    <td>107</td>
+                    <td>134</td>
+                    <td>147</td>
+                    <td>177</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                    <td>30</td>
-                    <td>42</td>
-                    <td>56</td>
+                    <td>90</td>
+                    <td>97</td>
+                    <td>121</td>
+                    <td>133</td>
+                    <td>151</td>
                 </tr>
                 <tr>
                     <td class="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
                     <td>1500</td>
                     <td>1500</td>
                     <td>1500</td>
-
+                    <td>1500</td>
+                    <td>1500</td>
                 </tr>
                 <tr>
                     <td class="description">ЦИКЛ</td>
                     <td>4</td>
                     <td>4</td>
                     <td>4</td>
+                    <td>4</td>
+                    <td>4</td>
                 </tr>
                 <tr>
                     <td class="description">ЛИТРАЖ</td>
-                    <td>3,61</td>
-                    <td>3,61</td>
-                    <td>4,15</td>
+                    <td>3,707</td>
+                    <td>3,875</td>
+                    <td>4,087</td>
+                    <td>3,875</td>
+                    <td>4,087</td>
                 </tr>
                 <tr>
                     <td class="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
                     <td>4 IN LINE</td>
                     <td>4 IN LINE</td>
                     <td>4 IN LINE</td>
+                    <td>4 IN LINE</td>
+                    <td>4 IN LINE</td>
                 </tr>
                 <tr>
                     <td class="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
-                    <td>100x115</td>
-                    <td>100x115</td>
-                    <td>105x120</td>
+                    <td>100 x 118</td>
+                    <td>102 x 118</td>
+                    <td>105 x 118</td>
+                    <td>102 x 118</td>
+                    <td>105 x 118</td>
                 </tr>
                 <tr>
                     <td class="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
-                    <td>19 : 1</td>
-                    <td>19 : 1</td>
-                    <td>17 : 1</td>
+                    <td>18 : 1</td>
+                    <td>18 : 1</td>
+                    <td>18 : 1</td>
+                    <td>18 : 1</td>
+                    <td>18 : 1</td>
                 </tr>
                 <tr>
                     <td class="description">ТИП РЕГУЛЯТОРА</td>
+                    <td>ELECTRONIC</td>
+                    <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
@@ -277,9 +316,13 @@ export const Custom8 = () => (
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td class="description">СИСТЕМА СГОРАНИЯ</td>
+                    <td>DIRECT</td>
+                    <td>DIRECT</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
@@ -289,42 +332,56 @@ export const Custom8 = () => (
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
+                    <td>ВОДЯНОЕ</td>
+                    <td>ВОДЯНОЕ</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
-                    <td>9,1</td>
-                    <td>12,4</td>
-                    <td>14,8</td>
+                    <td>20,94</td>
+                    <td>20,6</td>
+                    <td>22,8</td>
+                    <td>29,87</td>
+                    <td>31,65</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
-                    <td>6,8</td>
-                    <td>9,3</td>
-                    <td>11,1</td>
+                    <td>16,27</td>
+                    <td>17,8</td>
+                    <td>18,45</td>
+                    <td>21,89</td>
+                    <td>24,05</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
-                    <td>4,6</td>
-                    <td>6,2</td>
-                    <td>7,4</td>
+                    <td>12,59</td>
+                    <td>12,2</td>
+                    <td>12,52</td>
+                    <td>14,89</td>
+                    <td>15,98</td>
                 </tr>
                 <tr>
                     <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
-                    <td>13</td>
-                    <td>13</td>
-                    <td>13</td>
+                    <td>17</td>
+                    <td>14</td>
+                    <td>14</td>
+                    <td>16</td>
+                    <td>16</td>
                 </tr>
                 <tr>
                     <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
-                    <td>13</td>
-                    <td>13</td>
-                    <td>13</td>
+                    <td>16,7</td>
+                    <td>18</td>
+                    <td>18</td>
+                    <td>26</td>
+                    <td>26</td>
                 </tr>
                 <tr>
                     <td class="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
-                    <td>101</td>
-                    <td>101</td>
                     <td>139</td>
+                    <td>275</td>
+                    <td>275</td>
+                    <td>275</td>
+                    <td>275</td>
                 </tr>
             </table>
         </div>

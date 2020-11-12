@@ -26,6 +26,14 @@ import { Custom25 } from "./custom25";
 import { Custom26 } from "./custom26";
 import { Custom27 } from "./custom27";
 import { Custom28 } from "./custom28";
+import { Custom29 } from "./custom29";
+import { Custom30 } from "./custom30";
+import { Custom31 } from "./custom31";
+import { Custom32 } from "./custom32";
+import { Custom33 } from "./custom33";
+import { Custom34 } from "./custom34";
+import { Custom35 } from "./custom35";
+import { Custom36 } from "./custom36";
 
 export default {
     1: Custom1,
@@ -55,5 +63,13 @@ export default {
     25: Custom25,
     26: Custom26,
     27: Custom27,
-    28: Custom28
+    28: Custom28,
+    29: Custom29,
+    30: Custom30,
+    31: Custom31,
+    32: Custom32,
+    33: Custom33,
+    34: Custom34,
+    35: Custom35,
+    36: Custom36
 }

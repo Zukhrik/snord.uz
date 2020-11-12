@@ -201,48 +201,56 @@ export default [
         id: 29,
         title: 'QUANTUM YANG DONG 40 — 80 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM YANG DONG 40 — 80 КВА',
-        img: require('../../Assets/content-img/Yang-dong.png')
+        img: require('../../Assets/content-img/Yang-dong.png'),
+        component: electronicCustom[29]
     },
     {
         id: 30,
         title: 'QUANTUM YANG DONG 110 — 200 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM YANG DONG 110 — 200 КВА',
-        img: require('../../Assets/content-img/Yang-dong.png')
+        img: require('../../Assets/content-img/Yang-dong.png'),
+        component: electronicCustom[30]
     },
     {
         id: 31,
         title: 'QUANTUM RICARDO 82 — 125 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM RICARDO 82 — 125 КВА',
-        img: require('../../Assets/content-img/RICARDO.png')
+        img: require('../../Assets/content-img/RICARDO.png'),
+        component: electronicCustom[31]
     },
     {
         id: 32,
         title: 'QUANTUM RICARDO 150 — 200 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM RICARDO 150 — 200 КВА',
-        img: require('../../Assets/content-img/RICARDO.png')
+        img: require('../../Assets/content-img/RICARDO.png'),
+        component: electronicCustom[32]
     },
     {
         id: 33,
         title: 'QUANTUM SDEC 360 — 600 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM SDEC 360 — 600 КВА',
-        img: require('../../Assets/content-img/SDEC.png')
+        img: require('../../Assets/content-img/SDEC.png'),
+        component: electronicCustom[33]
     },
     {
         id: 34,
         title: 'QUANTUM SDEC 660 — 1000 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM SDEC 660 — 1000 КВА',
-        img: require('../../Assets/content-img/SDEC.png')
+        img: require('../../Assets/content-img/SDEC.png'),
+        component: electronicCustom[34]
     },
     {
         id: 35,
         title: 'QUANTUM DONGFENG 385 — 570 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM DONGFENG 385 — 570 КВА',
-        img: require('../../Assets/content-img/DONGFENG.png')
+        img: require('../../Assets/content-img/DONGFENG.png'),
+        component: electronicCustom[35]
     },
     {
         id: 36,
         title: 'QUANTUM DONGFENG 640 — 825 КВА',
         description: 'ДИЗЕЛЬ-ГЕНЕРАТОРНЫЕ УСТАНОВКИ QUANTUM DONGFENG 640 — 825 КВА',
-        img: require('../../Assets/content-img/DONGFENG.png')
+        img: require('../../Assets/content-img/DONGFENG.png'),
+        component: electronicCustom[36]
     },
 ]

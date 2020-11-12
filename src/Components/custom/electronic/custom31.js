@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Custom8 = () => (
+export const Custom31 = () => (
     <div className="wrapper">
         <div className="product-info">
             <div>
@@ -8,43 +8,43 @@ export const Custom8 = () => (
                 <ul>
                     <li>
                         Дизельный двигатель серии RICARDO
-                    </li>
+                </li>
                     <li>
                         4 цикла, с водяным охлаждением, двигатель с турбонаддувом
-                    </li>
+                </li>
                     <li>
                         Предкамерный впрыск
-                    </li>
+                </li>
                     <li>
                         Электронная система регулятора
-                    </li>
+                </li>
                     <li>
                         24-вольтовый стартер и зарядное устройство-генератор
-                    </li>
+                </li>
                     <li>
                         Сменный воздушный, топливный и масляный фильтры
-                    </li>
+                </li>
                     <li>
                         Радиатор панельного типа
-                    </li>
+                </li>
                     <li>
                         Гибкая топливная труба
-                    </li>
+                </li>
                     <li>
                         Клапан слива масла и расширительная труба
-                    </li>
+                </li>
                     <li>
                         Промышленный глушитель, выхлопная спираль или компенсатор
-                    </li>
+                </li>
                     <li>
                         Батарея, не требующая обслуживания
-                    </li>
+                </li>
                     <li>
                         Водонагреватель блока цилиндров (в автоматических моделях)
-                    </li>
+                </li>
                     <li>
                         Инструкции по эксплуатации
-                    </li>
+                </li>
                 </ul>
             </div>
 
@@ -53,25 +53,25 @@ export const Custom8 = () => (
                 <ul>
                     <li>
                         Бесщеточный, с одинарным гибким диском 4-полюсный
-                    </li>
+                </li>
                     <li>
                         генератор переменного тока при гармонических колебаниях
-                    </li>
+                </li>
                     <li>
                         Класс изоляции H-типа
-                    </li>
+                </li>
                     <li>
                         Класс защиты IP 21-23
-                    </li>
+                </li>
                     <li>
                         С самовозбуждением
-                    </li>
+                </li>
                     <li>
                         Электронный автоматический регулятор напряжения
-                    </li>
+                </li>
                     <li>
                         Статор 2/3 ступени при гармонических колебаниях
-                    </li>
+                </li>
                 </ul>
             </div>
 
@@ -80,16 +80,16 @@ export const Custom8 = () => (
                 <ul>
                     <li>
                         Шумозащитный кожух модульного типа
-                    </li>
+                </li>
                     <li>
                         Установка кожуха выполняется с помощью винта и гайки
-                    </li>
+                </li>
                     <li>
                         Запираемые с двух сторон двери
-                    </li>
+                </li>
                     <li>
                         Кнопка аварийной остановки
-                    </li>
+                </li>
                 </ul>
             </div>
 
@@ -98,37 +98,37 @@ export const Custom8 = () => (
                 <ul>
                     <li>
                         Зарядный амперметр
-                    </li>
+                </li>
                     <li>
                         Автомат защиты в литом корпусе (в автоматических моделях)
-                    </li>
+                </li>
                     <li>
                         Глушитель для жилых зон / критического типа
-                    </li>
+                </li>
                     <li>
                         Шумозащитный кожух
-                    </li>
+                </li>
                     <li>
                         Мобильный прицеп
-                    </li>
+                </li>
                     <li>
                         Синхронизированная панель управления
-                    </li>
+                </li>
                     <li>
                         3-х полюсный / 4-х полюсный автоматический ввод резерва (ABP)
-                    </li>
+                </li>
                     <li>
                         Топливный и масляный подогреватель
-                    </li>
+                </li>
                     <li>
                         Подогреватель генератора переменного тока
-                    </li>
+                </li>
                     <li>
                         Система автоматической дозаправки топлива
-                    </li>
+                </li>
                     <li>
                         Фильтр-сепаратор топлива-воды
-                    </li>
+                </li>
                 </ul>
             </div>
 
@@ -137,104 +137,117 @@ export const Custom8 = () => (
                 <ul>
                     <li>
                         ЖК-дисплей
-                    </li>
+                </li>
                     <li>
                         Необходимое оборудование и материалы
-                    </li>
+                </li>
                     <li>
                         Зарядное устройство
-                    </li>
+                </li>
                     <li>
                         Порт USB и выход RS-485
-                    </li>
+                </li>
                 </ul>
             </div>
 
             <table>
                 <tr class="table-head">
                     <th class="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
-                    <th>QUANTUM R 0035</th>
-                    <th>QUANTUM R 0050</th>
-                    <th>QUANTUM R 0070</th>
+                    <th>QUANTUM R 0082</th>
+                    <th>QUANTUM R 0094</th>
+                    <th>QUANTUM R 0110</th>
+                    <th>QUANTUM R 0125</th>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                    <td>35</td>
-                    <td>50</td>
-                    <td>70</td>
+                    <td>82</td>
+                    <td>94</td>
+                    <td>110</td>
+                    <td>125</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
-                    <td>28</td>
-                    <td>40</td>
-                    <td>56</td>
+                    <td>65,6</td>
+                    <td>75,2</td>
+                    <td>88</td>
+                    <td>100</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
-                    <td>32</td>
-                    <td>45</td>
-                    <td>65</td>
+                    <td>75</td>
+                    <td>85</td>
+                    <td>100</td>
+                    <td>114</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                    <td>25,6</td>
-                    <td>36</td>
-                    <td>52</td>
+                    <td>60</td>
+                    <td>68</td>
+                    <td>80</td>
+                    <td>91,2</td>
                 </tr>
                 <tr>
                     <td class="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
-                    <td>1000x2300x1420</td>
-                    <td>1000x2300x1420</td>
                     <td>1000x2600x1410</td>
+                    <td>1000x2600x1510</td>
+                    <td>1100x3050x1690</td>
+                    <td>1100x3050x1690</td>
                 </tr>
                 <tr>
                     <td class="description">ВЕС С КОЖУХЕ КГ</td>
-                    <td>957</td>
-                    <td>982</td>
-                    <td>1202</td>
+                    <td>1245</td>
+                    <td>1363</td>
+                    <td>1883</td>
+                    <td>1883</td>
                 </tr>
                 <tr>
                     <td class="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
-                    <td>1000x1900x1420</td>
-                    <td>1000x1900x1420</td>
                     <td>1000x2200x1410</td>
+                    <td>1000x2200x1510</td>
+                    <td>1100x2600x1690</td>
+                    <td>1100x2600x1690</td>
                 </tr>
                 <tr>
                     <td class="description">ВЕС КГ</td>
-                    <td>782</td>
-                    <td>807</td>
-                    <td>1005</td>
+                    <td>1048</td>
+                    <td>1085</td>
+                    <td>1630</td>
+                    <td>1630</td>
                 </tr>
                 <tr>
                     <td class="description">МАРКА</td>
                     <td>RICARDO</td>
                     <td>RICARDO</td>
                     <td>RICARDO</td>
+                    <td>RICARDO</td>
                 </tr>
                 <tr>
                     <td class="description">ТИП</td>
-                    <td>K4100DS</td>
-                    <td>K4100ZDS</td>
-                    <td>N4105ZDS</td>
+                    <td>N4105ZLDS</td>
+                    <td>R4105BZLDS</td>
+                    <td>R6105ZDS</td>
+                    <td>R6105ZLDS</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                    <td>33</td>
-                    <td>47</td>
-                    <td>62</td>
+                    <td>73</td>
+                    <td>80</td>
+                    <td>93</td>
+                    <td>111</td>
                 </tr>
                 <tr>
                     <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                    <td>30</td>
-                    <td>42</td>
-                    <td>56</td>
+                    <td>66</td>
+                    <td>72</td>
+                    <td>84</td>
+                    <td>100</td>
                 </tr>
                 <tr>
                     <td class="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
                     <td>1500</td>
                     <td>1500</td>
                     <td>1500</td>
-
+                    <td>1500</td>
                 </tr>
                 <tr>
                     <td class="description">ЦИКЛ</td>
@@ -244,30 +257,35 @@ export const Custom8 = () => (
                 </tr>
                 <tr>
                     <td class="description">ЛИТРАЖ</td>
-                    <td>3,61</td>
-                    <td>3,61</td>
-                    <td>4,15</td>
+                   <td>4,15</td>
+                   <td>4,67</td>
+                   <td>6,49</td>
+                   <td>6,49</td>
                 </tr>
                 <tr>
                     <td class="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
                     <td>4 IN LINE</td>
                     <td>4 IN LINE</td>
                     <td>4 IN LINE</td>
+                    <td>4 IN LINE</td>
                 </tr>
                 <tr>
                     <td class="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
-                    <td>100x115</td>
-                    <td>100x115</td>
                     <td>105x120</td>
+                    <td>105x135</td>
+                    <td>105x125</td>
+                    <td>105x125</td>
                 </tr>
                 <tr>
                     <td class="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
-                    <td>19 : 1</td>
-                    <td>19 : 1</td>
+                    <td>17 : 1</td>
+                    <td>17 : 1</td>
+                    <td>17 : 1</td>
                     <td>17 : 1</td>
                 </tr>
                 <tr>
                     <td class="description">ТИП РЕГУЛЯТОРА</td>
+                    <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
@@ -277,9 +295,11 @@ export const Custom8 = () => (
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
+                    <td>-</td>
                 </tr>
                 <tr>
                     <td class="description">СИСТЕМА СГОРАНИЯ</td>
+                    <td>DIRECT</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
@@ -289,42 +309,49 @@ export const Custom8 = () => (
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
+                    <td>ВОДЯНОЕ</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
-                    <td>9,1</td>
-                    <td>12,4</td>
-                    <td>14,8</td>
+                    <td>17,5</td>
+                    <td>19,1</td>
+                    <td>22,2</td>
+                    <td>25,6</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
-                    <td>6,8</td>
-                    <td>9,3</td>
-                    <td>11,1</td>
+                    <td>13,1</td>
+                    <td>14,3</td>
+                    <td>16,7</td>
+                    <td>19,2</td>
                 </tr>
                 <tr>
                     <td class="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
-                    <td>4,6</td>
-                    <td>6,2</td>
-                    <td>7,4</td>
+                    <td>8,7</td>
+                    <td>9,5</td>
+                    <td>11,1</td>
+                    <td>12,8</td>
                 </tr>
                 <tr>
                     <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
                     <td>13</td>
-                    <td>13</td>
-                    <td>13</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>17</td>
                 </tr>
                 <tr>
                     <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
                     <td>13</td>
-                    <td>13</td>
-                    <td>13</td>
+                    <td>16</td>
+                    <td>23</td>
+                    <td>23</td>
                 </tr>
                 <tr>
                     <td class="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
-                    <td>101</td>
-                    <td>101</td>
                     <td>139</td>
+                    <td>210</td>
+                    <td>275</td>
+                    <td>275</td>
                 </tr>
             </table>
         </div>
