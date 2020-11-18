@@ -253,4 +253,18 @@ export default [
         img: require('../../Assets/content-img/DONGFENG.png'),
         component: electronicCustom[36]
     },
+    {
+        id: 37,
+        title: 'QUANTUM 3/3 ФАЗЫ 10 — 80 КВА',
+        description: 'ИСТОЧНИКИ БЕСПЕРЕБОЙНОГО ПИТАНИЯ QUANTUM 3/3 ФАЗЫ 10 — 80 КВА',
+        img: require('../../Assets/content-img/quantum.png'),
+        component: electronicCustom[37]
+    },
+    {
+        id: 38,
+        title: 'QUANTUM 3/3 ФАЗЫ 100 — 800 КВА',
+        description: 'ИСТОЧНИКИ БЕСПЕРЕБОЙНОГО ПИТАНИЯ QUANTUM 3/3 ФАЗЫ 100 — 800 КВА',
+        img: require('../../Assets/content-img/quantum 100-800.png'),
+        component: electronicCustom[38]
+    },
 ]

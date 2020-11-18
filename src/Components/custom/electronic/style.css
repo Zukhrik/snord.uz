@@ -1,3 +1,15 @@
+
+
+.product-info p span {
+    font-weight: bold;
+}
+
+.product-info p {
+    padding: 0;
+    margin: 0;
+}
+
+
 .table-head {
     background: #4A4A49;
     color: #fff;
@@ -16,5 +28,7 @@ table {
 border-collapse: collapse;
 width: 100%;
 }
+
+
 
 tr:nth-child(even) {background-color: #f2f2f2;}

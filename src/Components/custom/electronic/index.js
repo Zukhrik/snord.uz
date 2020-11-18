@@ -34,6 +34,8 @@ import { Custom33 } from "./custom33";
 import { Custom34 } from "./custom34";
 import { Custom35 } from "./custom35";
 import { Custom36 } from "./custom36";
+import { Custom37 } from "./custom37";
+import { Custom38 } from "./custom38";
 
 export default {
     1: Custom1,
@@ -71,5 +73,7 @@ export default {
     33: Custom33,
     34: Custom34,
     35: Custom35,
-    36: Custom36
+    36: Custom36,
+    37: Custom37,
+    38: Custom38
 }
