@@ -267,4 +267,18 @@ export default [
         img: require('../../Assets/content-img/quantum 100-800.png'),
         component: electronicCustom[38]
     },
+    {
+        id: 39,
+        title: 'QUANTUM SRV 1/1 1 — 50 КВА ОДНОФАЗНЫЕ',
+        description: 'СЕРВОПРИВОДНЫЕ СТАБИЛИЗАТОРЫ QUANTUM SRV 1/1 1 — 50 КВА ОДНОФАЗНЫЕ',
+        img: require('../../Assets/content-img/quantum 1-50.png'),
+        component: electronicCustom[39]
+    },
+    {
+        id: 40,
+        title: 'QUANTUM SRV 3/3 3 — 150 КВА ТРЕХФАЗНЫЕ',
+        description: 'СЕРВОПРИВОДНЫЕ СТАБИЛИЗАТОРЫ QUANTUM SRV 3/3 3 — 150 КВА ТРЕХФАЗНЫЕ',
+        img: require('../../Assets/content-img/quantum 3-150.png'),
+        component: electronicCustom[40]
+    },
 ]
