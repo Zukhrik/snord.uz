@@ -26,12 +26,8 @@ export default ({id, allData}) => {
                         {currentData.description}
                     </div>
                     <div className='list-image'>
-                        {/* {currentData.img} */}
                         <img src={currentData.img} alt=""/>
                     </div>
-                    {/* <div className='list-info'>
-                        {currentData.content}
-                    </div> */}
                         <CustomComponent />
                 </>
             }

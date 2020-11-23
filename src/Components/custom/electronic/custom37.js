@@ -5,7 +5,7 @@ export const Custom37 = () => (
         <div className="product-info">
 
             <table>
-                <tr>
+                <tr className="table-head">
                     <td className="description table-head"> </td>
                     <td>33010</td>
                     <td>33015</td>
@@ -49,7 +49,7 @@ export const Custom37 = () => (
                 </tr>
                 <tr>
                     <td className="description">THDI</td>
-                    <td colspan="7">5%</td>
+<td colspan="7">{`<5%`}</td>
                 </tr>
                 <tr>
                     <td className="description">ВХОД КОЭФФИЦИЕНТ МОЩНОСТИ</td>
@@ -81,11 +81,11 @@ export const Custom37 = () => (
                 </tr>
                 <tr>
                     <td className="description">THDV</td>
-                    <td colspan="7">ошибку выдаёт</td>
+                    <td colspan="7">{`<3%ЛИНЕЙНАЯ НАГРУЗКА, <5 % НЕ ЛИНЕЙНАЯ НАГРУЗКА`}</td>
                 </tr>
                 <tr>
                     <td className="description">ПЕРЕЗАГРУЗКА</td>
-                    <td colspan="7">ошибку выдаёт</td>
+<td colspan="7">{`%100<LOAD<%125 НА 10 МИН, %125<ЗLOAD<150 НА 1 МИН LOAD<150; BYPASS`}</td>
                 </tr>
                 <tr>
                     <td className="description">ЗАЩИТА ОТ ЗАМЫКАНИЯ</td>
@@ -169,7 +169,7 @@ export const Custom37 = () => (
                 </tr>
                 <tr>
                     <td className="description">ВЫСОТА</td>
-                    <td colspan="7">ошибку выдаёт</td>
+                    <td colspan="7">{`<1000M`}</td>
                 </tr>
                 <tr>
                     <td className="description">ОХЛАЖДЕНИЕ</td>
@@ -188,7 +188,7 @@ export const Custom37 = () => (
                     <td colspan="7">EN 62040-1 (LVD), EN 62040-2(EMC), EN 62040-3</td>
                 </tr>
             </table>
-
+            <br/>
             <div>
                 <p><span>ПОДКЛЮЧЕНИЯ:</span> БЕЗ НЕЙТРАЛИ ДЛЯ ВХОДА И / ИЛИ ВЫХОДА</p>
                 <p><span>ФУНКЦИИ:</span> ПАРАЛЛЕЛЬНАЯ РАБОТА ДО 6 БЛОКОВ, EPO,ЭКСТРЕННАЯ ОСТАНОВКА, РАЗДЕЛИТЬ BYPASS,ТЕМПЕРАТУРНАЯ КОМПЕНСАЦИЯ

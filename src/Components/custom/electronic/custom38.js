@@ -45,7 +45,7 @@ export const Custom38 = () => (
                 </tr>
                 <tr>
                     <td className="description">THDI</td>
-                    <td colspan="10">ошибку выдаёт</td>
+                    <td colspan="10">{`<5%`}</td>
                 </tr>
                 <tr>
                     <td className="description">ВХОД КОЭФФИЦИЕНТ МОЩНОСТИ</td>
