@@ -1,5 +1,11 @@
 import React from 'react'
+
+//style
 import Button from '../../Components/Button'
+
+//helper
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 export default () => (
     <div className="home-body">
@@ -10,12 +16,23 @@ export default () => (
         </p>
 
             <div className="home-buttons">
-                <Button className="btn-white">
-                    оборудивание
-                </Button>
-                <Button className="btn-outline-white">
-                    о нас
-                </Button>
+                <AnchorLink 
+                     href="#electric"
+                     offset={() => 72}
+                >
+                    <Button className="btn-white">
+                        Оборудование
+                    </Button>
+                </AnchorLink>
+
+                <AnchorLink 
+                    href="#contacts"
+                    offset={() => 72}
+                >
+                    <Button className="btn-outline-white">
+                        о нас
+                    </Button>
+                </AnchorLink>
             </div>
         </div>
     </div>

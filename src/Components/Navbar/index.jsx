@@ -3,11 +3,11 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 //helper
 import menus from './helper'
+import { useEffect } from 'react'
 import logo from '../../Assets/images/logo.png'
 
 //Styles
 import './navbar.css'
-import { useEffect } from 'react'
 
 export default () => {
     const [active, setActive] = useState('#home')

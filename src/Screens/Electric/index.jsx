@@ -31,8 +31,8 @@ export default () => {
                 <div className="container">
                     <SectionHeading
                         reasonText="ПОЧЕМУ НАШИ ПРОДУКЦИИ"
-                        heading="ПРОДУКЦИЯ"
-                        description="электрического назначения"
+                        heading="ЭЛЕКТРООБОРУДОВАНИЕ"
+                        description="оборудование электрического назначения"
                     />
                     <div className="product-wrapper">
                         {

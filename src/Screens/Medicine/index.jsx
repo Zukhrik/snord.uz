@@ -29,8 +29,8 @@ export default () => {
                 <div className="container">
                     <SectionHeading
                         reasonText="Почему наши продукции"
-                        heading="ПРОДУКЦИЯ"
-                        description="медицинского назначения"
+                        heading="МЕДОБОРУДОВАНИЕ"
+                        description="оборудование медицинского назначения"
                     />
                     <div className="product-wrapper">
                         {

@@ -5,6 +5,7 @@ import logo from '../../Assets/images/logo.png'
 
 //style
 import './footer.css'
+import Button from '../../Components/Button'
 
 //helper
 import menus from '../../Components/Navbar/helper.js' 
@@ -51,8 +52,20 @@ export default () => {
                         }
                     </ul>
                 </div>
-                <div>
-                    Textarea
+
+                <div className="e-mail">
+                    <h6>ПОДПИСАТЬСЯ</h6>
+                    <p>Будьте в курсе всех новинок подпишитесь на нашу рассылку</p>
+                    {/* <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                    >
+                    </input>
+                    <Button className="btn-primary">
+                        ОТПРАВИТЬ
+                    </Button> */}
                 </div>
             </div>
         </div>
