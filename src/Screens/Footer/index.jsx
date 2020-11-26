@@ -56,7 +56,7 @@ export default () => {
                 <div className="e-mail">
                     <h6>ПОДПИСАТЬСЯ</h6>
                     <p>Будьте в курсе всех новинок подпишитесь на нашу рассылку</p>
-                    {/* <input 
+                    <input 
                         type="email"
                         id="email"
                         name="email"
@@ -65,7 +65,7 @@ export default () => {
                     </input>
                     <Button className="btn-primary">
                         ОТПРАВИТЬ
-                    </Button> */}
+                    </Button>
                 </div>
             </div>
         </div>

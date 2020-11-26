@@ -39,14 +39,14 @@
 }
 
 
-/* Button preview */
+/* Button primary */
 .btn-primary {
     color: rgba(95, 182, 231, 1);
     border-color: rgba(95, 182, 231, 1);
     background: none;
 }
 
-/* Button preview on hover */
+/* Button primary on hover */
 .btn-primary:hover {
     color: #fff;
     background: rgba(95, 182, 231, 1);

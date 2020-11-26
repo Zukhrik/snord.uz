@@ -151,16 +151,19 @@ export const Custom33 = () => (
             </div>
 
             <table>
-                <tr class="table-head">
-                    <th class="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
+                <thead>
+                <tr className="table-head">
+                    <th className="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
                     <th>QUANTUM S 0360</th>
                     <th>QUANTUM S 0400</th>
                     <th>QUANTUM S 0440</th>
                     <th>QUANTUM S 0550</th>
                     <th>QUANTUM S 0600</th>
                 </tr>
+                </thead>
+                <tbody>
                 <tr>
-                    <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
+                    <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
                     <td>360</td>
                     <td>400</td>
                     <td>440</td>
@@ -168,7 +171,7 @@ export const Custom33 = () => (
                     <td>600</td>
                 </tr>
                 <tr>
-                    <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
+                    <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
                     <td>288</td>
                     <td>320</td>
                     <td>352</td>
@@ -176,7 +179,7 @@ export const Custom33 = () => (
                     <td>480</td>
                 </tr>
                 <tr>
-                    <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
+                    <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
                     <td>330</td>
                     <td>365</td>
                     <td>400</td>
@@ -184,7 +187,7 @@ export const Custom33 = () => (
                     <td>550</td>
                 </tr>
                 <tr>
-                    <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
+                    <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
                     <td>264</td>
                     <td>292</td>
                     <td>320</td>
@@ -192,7 +195,7 @@ export const Custom33 = () => (
                     <td>440</td>
                 </tr>
                 <tr>
-                    <td class="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
+                    <td className="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
                     <td>1400x3705x2615</td>
                     <td>1400x3705x2615</td>
                     <td>1400x3705x2615</td>
@@ -200,7 +203,7 @@ export const Custom33 = () => (
                     <td>1700x4200x2715</td>
                 </tr>
                 <tr>
-                    <td class="description">ВЕС С КОЖУХЕ КГ</td>
+                    <td className="description">ВЕС С КОЖУХЕ КГ</td>
                     <td>4083,7</td>
                     <td>4083,7</td>
                     <td>4445,7</td>
@@ -208,7 +211,7 @@ export const Custom33 = () => (
                     <td>6466,5</td>
                 </tr>
                 <tr>
-                    <td class="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
+                    <td className="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
                     <td>1400x3450x2250</td>
                     <td>1400x3450x2250</td>
                     <td>1400x3450x2250</td>
@@ -216,7 +219,7 @@ export const Custom33 = () => (
                     <td>1700x3750x2050</td>
                 </tr>
                 <tr>
-                    <td class="description">ВЕС КГ</td>
+                    <td className="description">ВЕС КГ</td>
                     <td>3638</td>
                     <td>3638</td>
                     <td>4000,2</td>
@@ -224,7 +227,7 @@ export const Custom33 = () => (
                     <td>5742</td>
                 </tr>
                 <tr>
-                    <td class="description">МАРКА</td>
+                    <td className="description">МАРКА</td>
                     <td>SDEC</td>
                     <td>SDEC</td>
                     <td>SDEC</td>
@@ -232,7 +235,7 @@ export const Custom33 = () => (
                     <td>SDEC</td>
                 </tr>
                 <tr>
-                    <td class="description">ТИП</td>
+                    <td className="description">ТИП</td>
                     <td>SC12E420D2</td>
                     <td>SC12E460D2</td>
                     <td>SC15G500D2</td>
@@ -240,7 +243,7 @@ export const Custom33 = () => (
                     <td>SC25G690D2</td>
                 </tr>
                 <tr>
-                    <td class="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
+                    <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
                     <td>308</td>
                     <td>338</td>
                     <td>363</td>
@@ -248,7 +251,7 @@ export const Custom33 = () => (
                     <td>505</td>
                 </tr>
                 <tr>
-                    <td class="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
+                    <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
                     <td>280</td>
                     <td>307</td>
                     <td>330</td>
@@ -256,7 +259,7 @@ export const Custom33 = () => (
                     <td>459</td>
                 </tr>
                 <tr>
-                    <td class="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
+                    <td className="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
                     <td>1500</td>
                     <td>1500</td>
                     <td>1500</td>
@@ -264,7 +267,7 @@ export const Custom33 = () => (
                     <td>1500</td>
                 </tr>
                 <tr>
-                    <td class="description">ЦИКЛ</td>
+                    <td className="description">ЦИКЛ</td>
                     <td>4</td>
                     <td>4</td>
                     <td>4</td>
@@ -272,7 +275,7 @@ export const Custom33 = () => (
                     <td>4</td>
                 </tr>
                 <tr>
-                    <td class="description">ЛИТРАЖ</td>
+                    <td className="description">ЛИТРАЖ</td>
                     <td>11,8</td>
                     <td>11,8</td>
                     <td>14,16</td>
@@ -280,7 +283,7 @@ export const Custom33 = () => (
                     <td>25,8</td>
                 </tr>
                 <tr>
-                    <td class="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
+                    <td className="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
                     <td>6 IN LINE</td>
                     <td>6 IN LINE</td>
                     <td>6 IN LINE</td>
@@ -288,7 +291,7 @@ export const Custom33 = () => (
                     <td>12 V</td>
                 </tr>
                 <tr>
-                    <td class="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
+                    <td className="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
                     <td>128 x 153</td>
                     <td>128 x 153</td>
                     <td>135 x 165</td>
@@ -296,7 +299,7 @@ export const Custom33 = () => (
                     <td>135 x 150</td>
                 </tr>
                 <tr>
-                    <td class="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
+                    <td className="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
                     <td>17 : 1</td>
                     <td>17 : 1</td>
                     <td>15,55 : 1</td>
@@ -304,7 +307,7 @@ export const Custom33 = () => (
                     <td>16 : 1</td>
                 </tr>
                 <tr>
-                    <td class="description">ТИП РЕГУЛЯТОРА</td>
+                    <td className="description">ТИП РЕГУЛЯТОРА</td>
                     <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
                     <td>ELECTRONIC</td>
@@ -312,7 +315,7 @@ export const Custom33 = () => (
                     <td>ELECTRONIC</td>
                 </tr>
                 <tr>
-                    <td class="description">ИНДУКЦИОННЫЙ</td>
+                    <td className="description">ИНДУКЦИОННЫЙ</td>
                     <td>-</td>
                     <td>-</td>
                     <td>-</td>
@@ -320,7 +323,7 @@ export const Custom33 = () => (
                     <td>-</td>
                 </tr>
                 <tr>
-                    <td class="description">СИСТЕМА СГОРАНИЯ</td>
+                    <td className="description">СИСТЕМА СГОРАНИЯ</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
                     <td>DIRECT</td>
@@ -328,7 +331,7 @@ export const Custom33 = () => (
                     <td>DIRECT</td>
                 </tr>
                 <tr>
-                    <td class="description">СИСТЕМА ОХЛАЖДЕНИЯ</td>
+                    <td className="description">СИСТЕМА ОХЛАЖДЕНИЯ</td>
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
                     <td>ВОДЯНОЕ</td>
@@ -336,7 +339,7 @@ export const Custom33 = () => (
                     <td>ВОДЯНОЕ</td>
                 </tr>
                 <tr>
-                    <td class="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
+                    <td className="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
                     <td>68,6</td>
                     <td>71,6</td>
                     <td>81,2</td>
@@ -344,7 +347,7 @@ export const Custom33 = () => (
                     <td>113,8</td>
                 </tr>
                 <tr>
-                    <td class="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
+                    <td className="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
                     <td>51,4</td>
                     <td>53,4</td>
                     <td>59,8</td>
@@ -352,7 +355,7 @@ export const Custom33 = () => (
                     <td>85,9</td>
                 </tr>
                 <tr>
-                    <td class="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
+                    <td className="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
                     <td>35,1</td>
                     <td>36,1</td>
                     <td>41,1</td>
@@ -360,7 +363,7 @@ export const Custom33 = () => (
                     <td>60,7</td>
                 </tr>
                 <tr>
-                    <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
+                    <td className="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
                     <td>41</td>
                     <td>41</td>
                     <td>41</td>
@@ -368,7 +371,7 @@ export const Custom33 = () => (
                     <td>65</td>
                 </tr>
                 <tr>
-                    <td class="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
+                    <td className="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
                     <td>80,2</td>
                     <td>80,2</td>
                     <td>80,2</td>
@@ -376,13 +379,14 @@ export const Custom33 = () => (
                     <td>147</td>
                 </tr>
                 <tr>
-                    <td class="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
+                    <td className="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
                     <td>880</td>
                     <td>880</td>
                     <td>880</td>
                     <td>1272</td>
                     <td>1272</td>
                 </tr>
+                </tbody>
             </table>
         </div>
     </div>
