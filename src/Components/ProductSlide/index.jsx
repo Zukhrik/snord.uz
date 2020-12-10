@@ -1,10 +1,13 @@
-import React from 'react'
-import { useEffect } from 'react'
-import { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import Button from '../Button'
+
+//helper
+
 //style
-import './list-content.css'
+import './slide.css'
 
 export default ({ id, allData }) => {
+
     const [currentData, setCurrentData] = useState(null)
 
     useEffect(() => {
@@ -18,18 +21,26 @@ export default ({ id, allData }) => {
     const CustomComponent = currentData && currentData.component ? currentData.component : <></>
 
     return (
-        <div>
+        <div className="slide-wrapper">
             {
                 currentData &&
                 <>
-                    <div className='list-title'>
-                        {currentData.description}
+                    <div>
+                        <h4 className="">
+                            {currentData.title}
+                        </h4>
+
+                        <p>
+                            {currentData.description}
+                        </p>
+
+                        <Button>
+                            Подробно
+                        </Button>
                     </div>
-                    <div className='list-image'>
-                        <img src={currentData.img} alt="" />
-                    </div>
-                    <div >
-                        {currentData.title}
+
+                    <div className="">
+                        <img src={currentData.img} alt="product-img" />
                     </div>
                     {
                         currentData.component
@@ -38,14 +49,14 @@ export default ({ id, allData }) => {
                         )
                     }
 
-                    {
+                    {/* {
                         !currentData.component
                         && (
-                            <div className="list-info">
+                            <div className="">
                                 {currentData.content}
                             </div>
                         )
-                    }
+                    } */}
 
                 </>
             }

@@ -1,6 +1,5 @@
 import React from 'react';
-import {Home, About, Electric, Medicine, Contacts, Footer} from './Screens'
-
+import {Home, About, Electric, Medicine, Contacts, Footer, } from './Screens'
 
 function App() {
   return (

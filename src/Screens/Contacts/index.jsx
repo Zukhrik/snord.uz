@@ -9,7 +9,7 @@ import './contact.css'
 export default () => {
 
     return (
-        <div className="common-section" id="contacts">
+        <div className="common-section">
             <div className="container">
                 <SectionHeading
                     reasonText="НАС ЦЕНЯТ"

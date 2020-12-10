@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SectionHeading from '../../Components/SectionHeading'
-import ListItem from '../../Components/ListItem'
+
 //helper
 import electricList from './helper'
 import { Modal } from '../../Components/Modal'
@@ -58,16 +58,6 @@ export default () => {
                         heading="ЭЛЕКТРООБОРУДОВАНИЕ"
                         description="оборудование электрического назначения"
                     />
-
-                    {/* {
-                            electricList.map((item, idx) => (
-                                <ListItem
-                                    key={`${idx + 1}`}
-                                    item={item}
-                                    handleSelect={handleSelect}
-                                />
-                            ))
-                        } */}
                     <Carousel
                         data={generateDataForSlider()}
                         handleSelect={handleSelect}

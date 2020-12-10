@@ -17,10 +17,11 @@
     font-size: 30px;
 }
 
-.footer img {
+.footer-logo {
     min-width: 90px;
     max-width: 90px;
-    display: block;
+    display: flex;
+    justify-content: center;
     background-color: rgba(255,255,255, .7);
     padding: 6px;
     box-shadow: 0 6px 12px rgb(0 0 0 );
@@ -29,7 +30,7 @@
     margin-bottom: 30px;
 }
 
-.footer img:hover {
+.footer-logo:hover {
     box-shadow: 0 6px 12px rgb(255,255,255, .3 );
     border-radius: 5px;
 }

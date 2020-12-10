@@ -2,6 +2,7 @@ import React from 'react'
 import './section-heading.css'
 
 export default ({reasonText, heading, description}) => {
+    
     return (
         <div className="section-heading-wrapper">
             <div className="reason-text">

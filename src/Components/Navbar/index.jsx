@@ -9,7 +9,7 @@ import logo from '../../Assets/images/logo.png'
 //Styles
 import './navbar.css'
 
-export default () => {
+export default (item) => {
     const [active, setActive] = useState('#home')
     const [fixedProp, setFixedProp] = useState(false)
 
@@ -41,9 +41,21 @@ export default () => {
             <div className="container">
                 <div className="navbar-wrapper">
 
-                    <a href="#home" className="logo" onClick={() => setActive('#home')}>
-                        <img src={logo} alt="logo" />
-                    </a>
+                    {
+                        <span
+                            key={item.id}
+                            onClick={() => handleClick(item.[1])}
+                        >
+                            <AnchorLink
+                                href="#home"
+                                offset={() => 72}
+                                className="logo"
+                            >
+                                <img src={logo} alt="logo" />
+                            </AnchorLink>
+                        </span>
+                    }
+
                     <ul className="nav-menu">
                         {
                             menus.map((item) => (
@@ -52,7 +64,7 @@ export default () => {
                                     onClick={() => handleClick(item.url)}
                                     className={`nav-menu-item${active === item.url ? ' active' : ''}`}
                                 >
-                                    <AnchorLink 
+                                    <AnchorLink
                                         href={item.url}
                                         offset={() => 72}
                                         className="nav-menu-link"

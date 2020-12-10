@@ -25,7 +25,6 @@ export default ({ data, handleSelect }) => {
             items: 1
         }
     };
-    console.log(data);
 
     return (
         <div className="carousel-container">
