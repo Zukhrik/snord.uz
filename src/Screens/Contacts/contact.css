@@ -1,8 +1,8 @@
 
 
-.partner-wrapper {
+/* .partner-wrapper {
     display: flex;
-}
+} */
 
 .partner-item {
     background-color: #fff;
@@ -14,6 +14,7 @@
 }
 
 .partner-item img {
-    width: 70%;
+    min-width: 40%;
+    max-width: 40%;
     height: auto;
 }

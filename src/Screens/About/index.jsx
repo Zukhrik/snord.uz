@@ -6,6 +6,7 @@ import SectionHeading from '../../Components/SectionHeading'
 
 //style
 import './about.css'
+import Carousel from '../../Components/Carousel'
 
 export default () => {
 
@@ -39,6 +40,7 @@ export default () => {
                     }
                    
                 </div>
+                <Carousel />
             </div>
         </div>
     )

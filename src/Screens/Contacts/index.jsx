@@ -18,10 +18,10 @@ export default () => {
                 />
                 <div className="partner-wrapper">
                     <div className="partner-item">
-                        <img src={health} alt="partner-logo" />  
+                        <img src={aggye} alt="partner-logo" />
                     </div>
                     <div className="partner-item">
-                        <img src={aggye} alt="partner-logo"/>
+                        <img src={health} alt="partner-logo" />
                     </div>
                 </div>
             </div>

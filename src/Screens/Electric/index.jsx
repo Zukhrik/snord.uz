@@ -5,6 +5,9 @@ import ListItem from '../../Components/ListItem'
 import electricList from './helper'
 import { Modal } from '../../Components/Modal'
 import ListContent from '../../Components/ListContent'
+import Carousel from '../../Components/Carousel'
+
+const SLIDER_PER_ITEM = 8
 
 
 export default () => {
@@ -16,9 +19,30 @@ export default () => {
         setSelectedId(id)
     }
 
+    const generateDataForSlider = () => {
+        const data = []
+
+        for (let i = 0; i < Math.ceil(electricList.length / SLIDER_PER_ITEM); i++) {
+            const $i = i * SLIDER_PER_ITEM
+            const $j = SLIDER_PER_ITEM * (i + 1)
+            const tmp = []
+
+            for (let j = $i; j < $j; j++) {
+                if (electricList[j]) {
+                    tmp.push(electricList[j])
+                } else {
+                    break
+                }
+            }
+            data.push(tmp)
+        }
+        return data
+    }
+
+
     return (
         <>
-            <Modal 
+            <Modal
                 setIsOpen={setOpenObj}
                 modalIsOpen={openObj}
                 component={<ListContent
@@ -34,17 +58,20 @@ export default () => {
                         heading="ЭЛЕКТРООБОРУДОВАНИЕ"
                         description="оборудование электрического назначения"
                     />
-                    <div className="product-wrapper">
-                        {
-                            electricList.map(item => (
+
+                    {/* {
+                            electricList.map((item, idx) => (
                                 <ListItem
-                                    key={item.id}
+                                    key={`${idx + 1}`}
                                     item={item}
                                     handleSelect={handleSelect}
                                 />
                             ))
-                        }
-                    </div>
+                        } */}
+                    <Carousel
+                        data={generateDataForSlider()}
+                        handleSelect={handleSelect}
+                    />
                 </div>
             </div>
         </>

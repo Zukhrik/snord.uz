@@ -4,31 +4,47 @@ import { useState } from 'react'
 //style
 import './list-content.css'
 
-export default ({id, allData}) => {
+export default ({ id, allData }) => {
     const [currentData, setCurrentData] = useState(null)
 
     useEffect(() => {
-        if(id && allData) {
+        if (id && allData) {
             const newData = allData.find(item => item.id === id)
             setCurrentData(newData)
         }
 
     }, [id, allData])
+    console.log(currentData);
 
     const CustomComponent = currentData && currentData.component ? currentData.component : <></>
 
     return (
         <div>
             {
-                currentData && 
+                currentData &&
                 <>
                     <div className='list-title'>
                         {currentData.description}
                     </div>
                     <div className='list-image'>
-                        <img src={currentData.img} alt=""/>
+                        <img src={currentData.img} alt="" />
                     </div>
-                        <CustomComponent />
+                    {
+                        currentData.component
+                        && (
+                            <CustomComponent />
+                        )
+                    }
+
+                    {
+                        !currentData.component
+                        && (
+                            <div className="list-info">
+                                {currentData.content}
+                            </div>
+                        )
+                    }
+
                 </>
             }
         </div>

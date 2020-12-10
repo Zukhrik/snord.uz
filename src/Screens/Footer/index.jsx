@@ -5,10 +5,9 @@ import logo from '../../Assets/images/logo.png'
 
 //style
 import './footer.css'
-import Button from '../../Components/Button'
 
 //helper
-import menus from '../../Components/Navbar/helper.js' 
+import menus from '../../Components/Navbar/helper.js'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default () => {
@@ -29,9 +28,9 @@ export default () => {
                     <p>E-mail: info@snord.uz</p>
                 </div>
                 <div className="menu-wrapper">
-                    
+
                     <ul className="menu">
-                    <h6>МЕНЮ</h6>
+                        <h6>МЕНЮ</h6>
                         {
                             menus.map((item) => (
                                 <li
@@ -39,7 +38,7 @@ export default () => {
                                     onClick={() => handleClick(item.url)}
                                     className={`menu-item${active === item.url ? ' active' : ''}`}
                                 >
-                                    
+
                                     <AnchorLink
                                         href={item.url}
                                         offset={() => 72}
@@ -56,16 +55,18 @@ export default () => {
                 <div className="e-mail">
                     <h6>ПОДПИСАТЬСЯ</h6>
                     <p>Будьте в курсе всех новинок подпишитесь на нашу рассылку</p>
-                    <input 
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="you@example.com"
-                    >
-                    </input>
-                    <Button className="btn-primary">
-                        ОТПРАВИТЬ
-                    </Button>
+                    <form>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                        >
+                        </input>
+                        <button>
+                            ОТПРАВИТЬ
+                    </button>
+                    </form>
                 </div>
             </div>
         </div>
