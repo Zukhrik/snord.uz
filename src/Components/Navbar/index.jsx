@@ -45,6 +45,7 @@ export default (item) => {
                         <span
                             key={item.id}
                             onClick={() => handleClick(item.[1])}
+                            className="logo-span"
                         >
                             <AnchorLink
                                 href="#home"

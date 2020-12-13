@@ -1,5 +1,5 @@
 import React from 'react';
-import {Home, About, Electric, Medicine, Contacts, Footer, } from './Screens'
+import {Home, About, Electric, Medicine, Contacts, Footer, Slider} from './Screens'
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
      <Home />
      <About />
      <Medicine />
+     <Slider />
      <Electric />
      <Contacts />
      <Footer />

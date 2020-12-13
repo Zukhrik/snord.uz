@@ -1,14 +1,8 @@
 import React from 'react'
-import ProductSlide from '../../Components/ProductSlide'
+import Slider from '../../Components/Slider'
 
 export default () => {
     return (
-
-        <ProductSlide
-        
-            
-        
-        />
-
+        <Slider />
     )
 }

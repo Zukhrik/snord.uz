@@ -68,8 +68,9 @@ export default (item) => {
                 </div>
 
                 <div className="e-mail">
-                    <h6>ПОДПИСАТЬСЯ</h6>
-                    <p>Будьте в курсе всех новинок подпишитесь на нашу рассылку</p>
+                    <h6>ОБРАТНАЯ СВЯЗЬ</h6>
+                    <p>По вопросам и пожеланием заполните поля</p>
+
                     <form>
                         <input
                             type="email"
@@ -82,6 +83,7 @@ export default (item) => {
                             ОТПРАВИТЬ
                     </button>
                     </form>
+                    
                 </div>
             </div>
         </div>
