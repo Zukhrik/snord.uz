@@ -1,4 +1,5 @@
 import React from 'react'
+//helper
 import { useEffect } from 'react'
 import { useState } from 'react'
 //style
@@ -22,11 +23,11 @@ export default ({ id, allData }) => {
             {
                 currentData &&
                 <>
-                    <div className='list-title'>
+                    <div className="list-title">
                         {currentData.description}
                     </div>
-                    <div className='list-image'>
-                        <img src={currentData.img} alt="" />
+                    <div className="list-image">
+                        <img src={currentData.img} alt={currentData.title} />
                     </div>
                     <div >
                         {currentData.title}

@@ -18,9 +18,7 @@ export default ({ item, handleSelect }) => {
                     </h6>
 
                     <p>
-                        {
-                            item.description
-                        }
+                        {item.description}
                     </p>
 
                     <Button className="btn-primary" onClick={() => handleSelect(item.id)}>

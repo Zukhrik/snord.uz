@@ -1,6 +1,5 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import ListItem from '../ListItem';
 
 import './carousel.css'
@@ -31,7 +30,9 @@ export default ({ data, handleSelect }) => {
             {
                 data && data.length > 0
                 && (
-                    <Carousel responsive={responsive}>
+                    <Carousel
+                        responsive={responsive}
+                    >
                         {
                             data.map((sliderItem, idx) => (
                                 <div

@@ -9,6 +9,7 @@ function App() {
      <Medicine />
      <Slider />
      <Electric />
+     <Slider />
      <Contacts />
      <Footer />
     </div>
