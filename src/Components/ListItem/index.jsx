@@ -21,7 +21,10 @@ export default ({ item, handleSelect }) => {
                         {item.description}
                     </p>
 
-                    <Button className="btn-primary" onClick={() => handleSelect(item.id)}>
+                    <Button 
+                        className="btn-primary" 
+                        onClick={() => handleSelect(item.id)}
+                    >
                         Подробно
                     </Button>
                 </div>

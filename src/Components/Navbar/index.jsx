@@ -32,7 +32,7 @@ export default (item) => {
         })
 
         return () => {
-            window.removeEventListener('scroll')
+            window.removeEventListener('scroll', changeFixedProp)
         }
     }, [])
 

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 @import "~react-multi-carousel/lib/styles.css";
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -12,7 +12,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -50,9 +50,18 @@ a {
 
 .react-multiple-carousel__arrow {
   z-index: 20 !important;
-}
-
-.react-multiple-carousel__arrow {
   background: rgb(0 0 0 / 16%) !important;
 }
 
+.react-multiple-carousel__arrow:hover {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.react-multi-carousel-dot button {
+  border-color: #fff !important;
+  background-color: transparent;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: #fff !important;
+}

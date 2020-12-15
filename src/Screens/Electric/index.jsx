@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
+import Carousel from '../../Components/Carousel'
+import { Modal } from '../../Components/Modal'
+import ListContent from '../../Components/ListContent'
+
+//Own components
 import SectionHeading from '../../Components/SectionHeading'
 
 //helper
-import electricList from './helper'
-import { Modal } from '../../Components/Modal'
-import ListContent from '../../Components/ListContent'
-import Carousel from '../../Components/Carousel'
+import {eletricalData} from '../../data/eletric-data'
 
 const SLIDER_PER_ITEM = 8
-
 
 export default () => {
     const [openObj, setOpenObj] = useState(false)
@@ -22,14 +23,14 @@ export default () => {
     const generateDataForSlider = () => {
         const data = []
 
-        for (let i = 0; i < Math.ceil(electricList.length / SLIDER_PER_ITEM); i++) {
+        for (let i = 0; i < Math.ceil(eletricalData.length / SLIDER_PER_ITEM); i++) {
             const $i = i * SLIDER_PER_ITEM
             const $j = SLIDER_PER_ITEM * (i + 1)
             const tmp = []
 
             for (let j = $i; j < $j; j++) {
-                if (electricList[j]) {
-                    tmp.push(electricList[j])
+                if (eletricalData[j]) {
+                    tmp.push(eletricalData[j])
                 } else {
                     break
                 }
@@ -39,7 +40,6 @@ export default () => {
         return data
     }
 
-
     return (
         <>
             <Modal
@@ -47,7 +47,7 @@ export default () => {
                 modalIsOpen={openObj}
                 component={<ListContent
                     id={selectedId}
-                    allData={electricList}
+                    allData={eletricalData}
                 />}
             />
 

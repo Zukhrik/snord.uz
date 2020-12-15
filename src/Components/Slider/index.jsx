@@ -1,18 +1,14 @@
 import React from 'react'
-
-//helper
-import Button from '../Button'
-import Aggye from '../../Assets/images/Aggye.png'
 import Carousel from 'react-multi-carousel'
-// import SliderItem from '../SliderItem'
 
+//Own components
+import SliderItem from '../SliderItem'
+import PropTypes from 'prop-types'
 
 //style
 import './slider.css'
 
-export default ({ reverse, data }) => {
-
-    const wrapperClassName = `slider-wrapper${reverse ? ' reverse' : ''}`
+const SliderComponent = ({ reverse, data, handleSelect }) => {
 
     const responsive = {
         superLargeDesktop: {
@@ -34,45 +30,23 @@ export default ({ reverse, data }) => {
         }
     };
 
-    const renderNumber = () => {
-        const tmp = []
-
-        for (let i = 0; i < 5; i++) {
-            tmp.push(i)
-        }
-        return tmp
-    }
-
     return (
         <div className="slider-container">
             <div className="container">
                 <Carousel
                     showDots
+                    arrows={false}
                     responsive={responsive}
                 >
-
                     {
-                        renderNumber().map(item => (
-                            <div 
-                                key={item} 
-                                className={wrapperClassName}
-                            >
-                                <div className="slider-info">
-                                    <h3>Больничные койки</h3>
+                        data.map((item, idx) => (
 
-                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее</p>
-
-                                    <Button className="btn-outline-white slider-btn" >
-                                        Подробно
-                                    </Button>
-                                </div>
-
-                                <div className="slider-img">
-                                    <img src={Aggye} alt="aggye" />
-                                </div>
-                            </div>
-
-                            // <SliderItem />
+                            <SliderItem
+                                reverse={reverse}
+                                key={`${idx + 1}`}
+                                data={item}
+                                handleSelect={() => handleSelect(item.id)}
+                            />
                         ))
                     }
                 </Carousel>
@@ -80,3 +54,15 @@ export default ({ reverse, data }) => {
         </div>
     )
 }
+
+SliderComponent.propTypes = {
+    reverse: PropTypes.bool,
+    data: PropTypes.array
+}
+
+SliderComponent.defaultProps = {
+    reverse: true,
+    data: []
+}
+
+export default SliderComponent

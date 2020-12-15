@@ -5,9 +5,8 @@ import './slider-item.css'
 
 //helper
 import Button from '../Button'
-import Aggye from '../../Assets/images/Aggye.png'
 
-export default ({ reverse }) => {
+export default ({ data, reverse, handleSelect }) => {
 
     const wrapperClassName = `slider-wrapper${reverse ? ' reverse' : ''}`
 
@@ -18,17 +17,20 @@ export default ({ reverse }) => {
                 className={wrapperClassName}
             >
                 <div className="slider-info">
-                    <h3>Больничные койки</h3>
+                    <h3>{data.title}</h3>
 
-                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее</p>
+                    <p>{data.description}</p>
 
-                    <Button className="btn-outline-white slider-btn" >
+                    <Button 
+                        className="btn-outline-white slider-btn" 
+                        onClick={handleSelect}    
+                    >
                         Подробно
                     </Button>
                 </div>
 
                 <div className="slider-img">
-                    <img src={Aggye} alt="aggye" />
+                    <img src={data.img} alt={data.title} />
                 </div>
             </div>      
     )
