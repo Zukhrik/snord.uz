@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 
-//Own components
-import Slider from '../../Components/Slider/index.jsx'
-import { eletricalData } from '../../data/eletric-data'
-import ListContent from '../../Components/ListContent/index.jsx'
-import { generateRandomData } from '../../utils/data-generating.js'
+//Own Components
+import Slider from '../../Components/Slider'
+import ListContent from '../../Components/ListContent'
 import { Modal } from '../../Components/Modal'
+import { medicalData } from '../../data/medical-data'
+import { generateRandomData } from '../../utils/data-generating'
+
 
 export default () => {
 
@@ -18,21 +19,21 @@ export default () => {
     }
 
     return (
-        <>
+        <div>
             <Modal
                 setIsOpen={setOpen}
                 modalIsOpen={open}
                 component={<ListContent
                     id={selectedId}
-                    allData={eletricalData}
+                    allData={medicalData}
                 />}
             />
-            
+
             <Slider
-                reverse={false}
-                data={generateRandomData(eletricalData)}
+                reverse={true}
+                data={generateRandomData(medicalData)}
                 handleSelect={handleSelect}
             />
-        </>
+        </div>
     )
 }

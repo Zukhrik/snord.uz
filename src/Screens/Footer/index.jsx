@@ -9,8 +9,9 @@ import './footer.css'
 //helper
 import menus from '../../Components/Navbar/helper.js'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { navbarData } from '../../data/navbar-data'
 
-export default (item) => {
+export default () => {
 
     const [active, setActive] = useState('')
 
@@ -25,13 +26,12 @@ export default (item) => {
 
                     {
                         <span
-                            key={item.id}
-                            onClick={() => handleClick(item.[1])}
-                            className={`footer-logo${active === item.[1] ? ' active' : ''}`}
+                            onClick={() => handleClick('#home')}
                         >
                             <AnchorLink
-                                href="#home"
+                                href={navbarData[0].url}
                                 offset={() => 72}
+                                className="logo"
                             >
                                 <img src={logo} alt="footer-logo" />
                             </AnchorLink>

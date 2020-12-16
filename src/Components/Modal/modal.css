@@ -37,7 +37,7 @@
 .custom-modal-body {
     padding: 24px;
     max-height: calc(100vh - 48px);
-    width: 800px;
+    width: 80wh;
     overflow-y: auto;
     overflow-x: hidden;
 }

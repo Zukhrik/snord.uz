@@ -65,3 +65,37 @@ a {
 .react-multi-carousel-dot--active button {
   background-color: #fff !important;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+
+  .product-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .product-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}

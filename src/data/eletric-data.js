@@ -1,4 +1,4 @@
-import { electronicCustom } from '../Components/custom';
+import { electronicCustom } from '../Components/custom'
 
 export const eletricalData = [
     {

@@ -63,7 +63,6 @@
 .navbar-fixed {
     background-color: #fff;
     box-shadow: 0 6px 12px rgba(0,0,0, .2);
-    margin-top: auto 0;
 }
 
 .navbar-fixed .nav-menu-link{
@@ -74,8 +73,3 @@
 .navbar-fixed .nav-menu-item.active .nav-menu-link {
     border-color: #5FB6E7;
 }
-
-@media screen and (max-width: 920px) {
-  
-}
-

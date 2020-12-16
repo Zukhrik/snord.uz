@@ -33,3 +33,9 @@
     margin: 0;
     max-width: 85%;
 }
+
+@media (max-width: 1200px) {
+    .about-item {
+        width: calc(100%/3);
+    }
+}

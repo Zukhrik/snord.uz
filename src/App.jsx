@@ -1,17 +1,17 @@
 import React from 'react';
-import {Home, About, Electric, Medicine, Contacts, Footer, Slider, ElectricSlider} from './Screens'
+import { Home, About, Electric, Medicine, Contacts, Footer, ElectricSlider, MedicalSlider } from './Screens'
 
 function App() {
   return (
     <div className="App">
-     <Home />
-     <About />
-     <Medicine />
-     <Slider />
-     <Electric />
-     <ElectricSlider />
-     <Contacts />
-     <Footer />
+      <Home />
+      <About />
+      <Medicine />
+      <MedicalSlider />
+      <Electric />
+      <ElectricSlider />
+      <Contacts />
+      <Footer />
     </div>
   );
 }

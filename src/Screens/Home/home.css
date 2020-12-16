@@ -73,3 +73,18 @@
     font-weight: 700;
     padding: 18px 24px;
 }
+
+@media (max-width: 1200px) {
+    .home-body h1 {
+        font-size: 36px;
+      }
+    
+      .home-body p {
+        font-size: 16px;
+      }
+    
+      .home-buttons button {
+        font-size: 16px;
+        padding: 14px 24px;
+      }
+}

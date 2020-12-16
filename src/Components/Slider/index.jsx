@@ -1,4 +1,6 @@
 import React from 'react'
+
+//helper
 import Carousel from 'react-multi-carousel'
 
 //Own components

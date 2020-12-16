@@ -13,7 +13,6 @@ export default ({ data, reverse, handleSelect }) => {
     return (
         
             <div
-                // key={item}
                 className={wrapperClassName}
             >
                 <div className="slider-info">
@@ -25,7 +24,7 @@ export default ({ data, reverse, handleSelect }) => {
                         className="btn-outline-white slider-btn" 
                         onClick={handleSelect}    
                     >
-                        Подробно
+                        подробно
                     </Button>
                 </div>
 

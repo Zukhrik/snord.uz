@@ -9,9 +9,10 @@ import logo from '../../Assets/images/logo.png'
 //Styles
 import './navbar.css'
 
-export default (item) => {
+export default () => {
     const [active, setActive] = useState('#home')
     const [fixedProp, setFixedProp] = useState(false)
+    const [isMobile, setIsMobile] = useState(false)
 
     const handleClick = (value) => {
         setActive(value)
@@ -36,46 +37,67 @@ export default (item) => {
         }
     }, [])
 
+    const resize = () => {
+        if (window.innerWidth <= 992) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+    }
+
+    useEffect(() => {
+        resize()
+        window.addEventListener('resize', () => {
+            resize()
+        })
+
+        return () => {
+            window.removeEventListener('resize', resize)
+        }
+    }, [])
+
     return (
         <div className={`navbar${fixedProp ? ' navbar-fixed' : ''}`}>
             <div className="container">
                 <div className="navbar-wrapper">
-
-                    {
-                        <span
-                            key={item.id}
-                            onClick={() => handleClick(item.[1])}
-                            className="logo-span"
+                    <span
+                        onClick={() => setActive('#home')}
+                        className="logo-span"
+                    >
+                        <AnchorLink
+                            href="#home"
+                            offset={() => 72}
+                            className="logo"
                         >
-                            <AnchorLink
-                                href="#home"
-                                offset={() => 72}
-                                className="logo"
-                            >
-                                <img src={logo} alt="logo" />
-                            </AnchorLink>
-                        </span>
+                            <img src={logo} alt="logo" />
+                        </AnchorLink>
+                    </span>
+                    {
+                        isMobile
+                            ? 'mobile'
+                            : (
+                                <ul className="nav-menu">
+                                    {
+                                        menus.map((item) => (
+                                            <li
+                                                key={item.id}
+                                                onClick={() => handleClick(item.url)}
+                                                className={`nav-menu-item${active === item.url ? ' active' : ''}`}
+                                            >
+                                                <AnchorLink
+                                                    href={item.url}
+                                                    offset={() => 72}
+                                                    className="nav-menu-link"
+                                                >
+                                                    {item.name}
+                                                </AnchorLink>
+                                            </li>
+                                        ))
+                                    }
+                                </ul>
+                            )
                     }
 
-                    <ul className="nav-menu">
-                        {
-                            menus.map((item) => (
-                                <li
-                                    key={item.id}
-                                    onClick={() => handleClick(item.url)}
-                                    className={`nav-menu-item${active === item.url ? ' active' : ''}`}
-                                >
-                                    <AnchorLink
-                                        href={item.url}
-                                        offset={() => 72}
-                                        className="nav-menu-link"
-                                    >
-                                        {item.name}
-                                    </AnchorLink>
-                                </li>
-                            ))
-                        }
-                    </ul>
                 </div>
             </div>
         </div>
