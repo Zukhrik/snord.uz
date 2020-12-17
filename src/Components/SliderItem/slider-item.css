@@ -58,9 +58,8 @@
 }
 
 .slider-btn {
-    width: 250px;
+    width: 45%;
 }
-
 
 .slider-img img {
     max-width: 300px;
@@ -73,7 +72,7 @@
 }
 
 .reverse .slider-img {
-    order: 1
+    order: 1;
 }
 
 .reverse .slider-info {

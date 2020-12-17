@@ -78,11 +78,11 @@ a {
 
 @media (max-width: 992px) {
   .container {
-    max-width: 768px;
+    max-width: 700px;
   }
 
   .product-wrapper {
-    grid-template-columns: repeat(2, 1fr);
+   grid-gap: 24px
   }
 
 }
@@ -91,11 +91,28 @@ a {
   .container {
     max-width: 576px;
   }
+
+  .product-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+   }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
+  }
+
+  .product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .common-section {
+    padding: 24px 0;
+  }
+
+  .mobile-padding {
     padding: 0 15px;
   }
 }

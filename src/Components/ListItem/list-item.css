@@ -15,10 +15,11 @@
     align-items: center;
     overflow: hidden;
     justify-content: center;
+    padding: 12px;
 }
 
 .list-item-img img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -50,4 +51,34 @@
 
 .list-item button {
     width: 85%;
+}
+
+@media (max-width: 992px) {
+    .list-item-img {
+        height: 140px;
+        max-height: 140px;
+    }
+
+    .list-item h6{
+        margin: 16px 0 10px 0;
+        font-size: 14px;
+    }
+
+    .list-item p {
+        font-size: 13px;
+        margin: 0 0 12px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-item-img {
+        height: 160px;
+        max-height: 160px;
+    }
+}
+
+@media (max-width: 576px) {
+    .list-item {
+        width: calc(100%/2 - 12px);
+    }
 }

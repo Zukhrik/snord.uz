@@ -54,3 +54,11 @@
     background: rgba(95, 182, 231, 1);
     border-color: rgba(95, 182, 231, 1);
 }
+
+@media (max-width: 992px) {
+   .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-width: 1px;
+   }
+}

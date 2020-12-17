@@ -21,3 +21,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 576px) {
+    .list-title {
+        font-size: 14px;
+    }
+}

@@ -39,7 +39,7 @@
 }
 
 .slider-info h3 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -48,7 +48,7 @@
 }
 
 .slider-info p {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -58,7 +58,7 @@
 }
 
 .slider-btn {
-    width: 250px;
+    width: 45%;
 }
 
 
@@ -79,3 +79,57 @@
 .reverse .slider-info {
     align-items: flex-end;
 }
+
+@media (max-width: 992px) {
+    .slider-wrapper {
+        margin: 5px;
+    }
+    .slider-info h3 {
+        font-size:24px;
+    }
+    .slider-info p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-info h3 {
+        font-size: 20px;
+    }
+
+    .slider-info p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 576px) {
+    .slider-info h3 {
+        font-size: 16px;
+    }
+    .slider-wrapper {
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .reverse .slider-info, .slider-info {
+        order: 2;
+        align-items: center;
+    }
+
+    .reverse .slider-img, .slider-img {
+        order: 1;
+    }
+
+    .slider-info p{
+       max-width: 80%;
+       text-align: center;
+    }
+    
+}
+

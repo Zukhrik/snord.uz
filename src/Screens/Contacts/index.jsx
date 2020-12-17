@@ -14,7 +14,6 @@ export default () => {
                 <SectionHeading
                     reasonText="НАС ЦЕНЯТ"
                     heading="НАШИ ПАРТНЕРЫ"
-                    description="Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее"
                 />
                 <div className="partner-wrapper">
                     <div className="partner-item">

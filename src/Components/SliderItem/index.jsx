@@ -24,7 +24,7 @@ export default ({ data, reverse, handleSelect }) => {
                         className="btn-outline-white slider-btn" 
                         onClick={handleSelect}    
                     >
-                        подробно
+                        Подробно
                     </Button>
                 </div>
 

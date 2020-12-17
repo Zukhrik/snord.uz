@@ -11,6 +11,9 @@ import {eletricalData} from '../../data/eletric-data'
 
 const SLIDER_PER_ITEM = 8
 
+const reverseElectricDate = eletricalData.reverse();
+
+
 export default () => {
     const [openObj, setOpenObj] = useState(false)
     const [selectedId, setSelectedId] = useState(null)
@@ -23,14 +26,14 @@ export default () => {
     const generateDataForSlider = () => {
         const data = []
 
-        for (let i = 0; i < Math.ceil(eletricalData.length / SLIDER_PER_ITEM); i++) {
+        for (let i = 0; i < Math.ceil(reverseElectricDate.length / SLIDER_PER_ITEM); i++) {
             const $i = i * SLIDER_PER_ITEM
             const $j = SLIDER_PER_ITEM * (i + 1)
             const tmp = []
 
             for (let j = $i; j < $j; j++) {
-                if (eletricalData[j]) {
-                    tmp.push(eletricalData[j])
+                if (reverseElectricDate[j]) {
+                    tmp.push(reverseElectricDate[j])
                 } else {
                     break
                 }
@@ -47,7 +50,7 @@ export default () => {
                 modalIsOpen={openObj}
                 component={<ListContent
                     id={selectedId}
-                    allData={eletricalData}
+                    allData={reverseElectricDate}
                 />}
             />
 

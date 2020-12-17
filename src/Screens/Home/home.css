@@ -88,3 +88,25 @@
         padding: 14px 24px;
       }
 }
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+    .home-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .home-buttons button {
+        font-size: 12px;
+        padding: 12px;
+    }
+    .home-body h1 {
+        font-size: 30px;
+    }
+    .home-body p {
+        font-size: 14px;
+    }
+}

@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 //helper
 import menus from './helper'
-import { useEffect } from 'react'
 import logo from '../../Assets/images/logo.png'
+import MobileNavbar from '../MobileNavbar'
 
 //Styles
 import './navbar.css'
@@ -59,14 +59,14 @@ export default () => {
     return (
         <div className={`navbar${fixedProp ? ' navbar-fixed' : ''}`}>
             <div className="container">
-                <div className="navbar-wrapper">
+                <div className="navbar-wrapper mobile-padding">
                     <span
                         onClick={() => setActive('#home')}
                         className="logo-span"
                     >
                         <AnchorLink
                             href="#home"
-                            offset={() => 72}
+                            offset={() => isMobile ? 60 : 72}
                             className="logo"
                         >
                             <img src={logo} alt="logo" />
@@ -74,22 +74,22 @@ export default () => {
                     </span>
                     {
                         isMobile
-                            ? 'mobile'
+                            ? <MobileNavbar />
                             : (
                                 <ul className="nav-menu">
                                     {
-                                        menus.map((item) => (
+                                        menus.map((navbarData) => (
                                             <li
-                                                key={item.id}
-                                                onClick={() => handleClick(item.url)}
-                                                className={`nav-menu-item${active === item.url ? ' active' : ''}`}
+                                                key={navbarData.id}
+                                                onClick={() => handleClick(navbarData.url)}
+                                                className={`nav-menu-item${active === navbarData.url ? ' active' : ''}`}
                                             >
                                                 <AnchorLink
-                                                    href={item.url}
-                                                    offset={() => 72}
+                                                    href={navbarData.url}
+                                                    offset={() => isMobile ? 60 : 72}
                                                     className="nav-menu-link"
                                                 >
-                                                    {item.name}
+                                                    {navbarData.name}
                                                 </AnchorLink>
                                             </li>
                                         ))

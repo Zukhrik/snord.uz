@@ -32,3 +32,22 @@
     color: rgba(0,0,0, .5);
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 992px) {
+    .section-description{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-heading {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .section-description {
+        font-size: 10px;
+    }
+    .reason-text {
+        font-size: 7px;
+    }
+}
