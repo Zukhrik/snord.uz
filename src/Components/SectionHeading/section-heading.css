@@ -37,6 +37,16 @@
     .section-description{
         font-size: 13px;
     }
+    .section-heading {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    .reason-text {
+        font-size: 10px;
+    }
+    .section-heading-wrapper {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 576px) {

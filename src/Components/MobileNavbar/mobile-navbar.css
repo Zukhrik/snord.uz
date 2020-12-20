@@ -11,7 +11,7 @@
   height: 3px;
   background-color: #fff;
   position: relative;
-  transition: .25s easeт;
+  transition: .25s ease;
 }
 
 .burger::before,
@@ -53,4 +53,13 @@
 .navbar-fixed .burger::before,
 .navbar-fixed .burger::after {
   background-color: #000;
+}
+
+.mobile-nav-menu {
+  list-style: none;
+  background: #fff;
+}
+
+.mobile-nav-menu-item {
+  color: #000;
 }

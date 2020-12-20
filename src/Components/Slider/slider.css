@@ -95,15 +95,12 @@
 @media (max-width: 768px) {
     .slider-info h3 {
         font-size: 20px;
+        margin-bottom: 0;
     }
 
     .slider-info p {
         font-size: 12px;
     }
-}
-
-@media (max-width: 768px) {
-  
 }
 
 @media (max-width: 576px) {
@@ -129,6 +126,7 @@
     .slider-info p{
        max-width: 80%;
        text-align: center;
+       margin: 5px 0;
     }
     
 }

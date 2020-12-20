@@ -50,6 +50,10 @@
         width: 80%;
         padding: 15px;
     }
+
+    .about-item h6 {
+        margin: 10px 0;
+    }
 }
 
 @media (max-width: 576px) {

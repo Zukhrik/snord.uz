@@ -81,6 +81,7 @@
     
       .home-body p {
         font-size: 16px;
+        margin-bottom: 0;
       }
     
       .home-buttons button {
@@ -90,7 +91,10 @@
 }
 
 @media (max-width: 768px) {
-
+    .home-body h1 {
+        font-size: 34px;
+        margin: 5px 0;
+    }
 }
 
 @media (max-width: 576px) {

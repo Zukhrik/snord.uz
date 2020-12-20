@@ -46,19 +46,19 @@ export default () => {
                     <h6>МЕНЮ</h6>
                         <ul className="menu">
                             {
-                                menus.map((navbarData) => (
+                                menus.map((item) => (
                                     <li
-                                        key={navbarData.id}
-                                        onClick={() => handleClick(navbarData.url)}
-                                        className={`menu-item${active === navbarData.url ? ' active' : ''}`}
+                                        key={item.id}
+                                        onClick={() => handleClick(item.url)}
+                                        className={`menu-item${active === item.url ? ' active' : ''}`}
                                     >
 
                                         <AnchorLink
-                                            href={navbarData.url}
+                                            href={item.url}
                                             offset={() => 72}
                                             className="menu-link"
                                         >
-                                            {navbarData.name}
+                                            {item.name}
                                         </AnchorLink>
                                     </li>
                                 ))

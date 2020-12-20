@@ -89,7 +89,13 @@ h6 {
 }
 
 @media (max-width: 768px) {
-    
+    .menu-wrapper {
+        display: none;
+    }
+    .footer-back {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    } 
 }
 
 @media (max-width: 576px) {

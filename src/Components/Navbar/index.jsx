@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 //helper
-import menus from './helper'
+import {navbarData} from '../../data/navbar-data.js'
 import logo from '../../Assets/images/logo.png'
 import MobileNavbar from '../MobileNavbar'
 
@@ -78,18 +78,18 @@ export default () => {
                             : (
                                 <ul className="nav-menu">
                                     {
-                                        menus.map((navbarData) => (
+                                        navbarData.map((item) => (
                                             <li
-                                                key={navbarData.id}
-                                                onClick={() => handleClick(navbarData.url)}
-                                                className={`nav-menu-item${active === navbarData.url ? ' active' : ''}`}
+                                                key={item.id}
+                                                onClick={() => handleClick(item.url)}
+                                                className={`nav-menu-item${active === item.url ? ' active' : ''}`}
                                             >
                                                 <AnchorLink
-                                                    href={navbarData.url}
+                                                    href={item.url}
                                                     offset={() => isMobile ? 60 : 72}
                                                     className="nav-menu-link"
                                                 >
-                                                    {navbarData.name}
+                                                    {item.name}
                                                 </AnchorLink>
                                             </li>
                                         ))
@@ -97,7 +97,6 @@ export default () => {
                                 </ul>
                             )
                     }
-
                 </div>
             </div>
         </div>
