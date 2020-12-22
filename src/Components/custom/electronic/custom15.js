@@ -150,244 +150,246 @@ export const Custom15 = () => (
                 </ul>
             </div>
 
-            <table>
-                <thead>
-                    <tr className="table-head">
-                        <th className="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
-                        <th>QUANTUM P 0900</th>
-                        <th>QUANTUM P 1002</th>
-                        <th>QUANTUM P 1125</th>
-                        <th>QUANTUM P 1250</th>
-                        <th>QUANTUM P 1385</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                        <td>900</td>
-                        <td>1002</td>
-                        <td>1125</td>
-                        <td>1250</td>
-                        <td>1385</td>
-                    </tr>
-                    <tr>
-                        <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
-                        <td>720</td>
-                        <td>802</td>
-                        <td>900</td>
-                        <td>1000</td>
-                        <td>1000</td>
-                    </tr>
-                    <tr>
-                        <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
-                        <td>800</td>
-                        <td>911</td>
-                        <td>1022</td>
-                        <td>1125</td>
-                        <td>1259</td>
-                    </tr>
-                    <tr>
-                        <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                        <td>640</td>
-                        <td>729</td>
-                        <td>818</td>
-                        <td>900</td>
-                        <td>1007</td>
-                    </tr>
-                    <tr>
-                        <td className="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
-                        <td>2200x5550x3310</td>
-                        <td>2200x5550x3310</td>
-                        <td>2200x5550x3310</td>
-                        <td>2200x5550x3310</td>
-                        <td>2438x7000x3620</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ВЕС С КОЖУХОМ КГ</td>
-                        <td>10686,4</td>
-                        <td>12710</td>
-                        <td>12872</td>
-                        <td>12980</td>
-                        <td>19542</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
-                        <td>2200x5300x2460</td>
-                        <td>2200x5300x2460</td>
-                        <td>2200x5300x2460</td>
-                        <td>2200x5300x2460</td>
-                        <td>2090x4800x2375</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ВЕС КГ</td>
-                        <td>8931,4</td>
-                        <td>10955</td>
-                        <td>11117</td>
-                        <td>11225</td>
-                        <td>12694</td>
-                    </tr>
-                    <tr>
-                        <td className="description">МАРКА</td>
-                        <td>PERKINS</td>
-                        <td>PERKINS</td>
-                        <td>PERKINS</td>
-                        <td>PERKINS</td>
-                        <td>PERKINS</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ТИП</td>
-                        <td>4006-23TAG3A</td>
-                        <td>4008-TAG1A</td>
-                        <td>4008-TAG2A</td>
-                        <td>4008-30TAG3</td>
-                        <td>4012-46TWG2A</td>
-                    </tr>
-                    <tr>
-                        <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
-                        <td>760</td>
-                        <td>855</td>
-                        <td>958</td>
-                        <td>1055</td>
-                        <td>1166</td>
-                    </tr>
-                    <tr>
-                        <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
-                        <td>679</td>
-                        <td>778</td>
-                        <td>872</td>
-                        <td>947</td>
-                        <td>1055</td>
-                    </tr>
-                    <tr>
-                        <td className="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
-                        <td>1500</td>
-                        <td>1500</td>
-                        <td>1500</td>
-                        <td>1500</td>
-                        <td>1500</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ЦИКЛ</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ЛИТРАЖ</td>
-                        <td>22,921</td>
-                        <td>30,561</td>
-                        <td>30,561</td>
-                        <td>30,561</td>
-                        <td>45,842</td>
-                    </tr>
-                    <tr>
-                        <td className="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
-                        <td>6 IN LINE</td>
-                        <td>8 IN LINE</td>
-                        <td>8 IN LINE</td>
-                        <td>8 IN LINE</td>
-                        <td> 12 - 60˚ V</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
-                        <td>160 x 190</td>
-                        <td>160 x 190</td>
-                        <td>160 x 190</td>
-                        <td>160 x 190</td>
-                        <td>160 x 190</td>
-                    </tr>
-                    <tr>
-                        <td className="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
-                        <td>13,6 : 1</td>
-                        <td>13,6 : 1</td>
-                        <td>13,6 : 1</td>
-                        <td>13,6 : 1</td>
-                        <td>13,6 : 1</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ТИП РЕГУЛЯТОРА</td>
-                        <td>ЭЛЕКТРОНИКА</td>
-                        <td>ЭЛЕКТРОНИКА</td>
-                        <td>ЭЛЕКТРОНИКА</td>
-                        <td>ЭЛЕКТРОНИКА</td>
-                        <td>ЭЛЕКТРОНИКА</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ИНДУКЦИОННЫЙ</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                    </tr>
-                    <tr>
-                        <td className="description">СИСТЕМА СГОРАНИЯ</td>
-                        <td>DIRECT</td>
-                        <td>DIRECT</td>
-                        <td>DIRECT</td>
-                        <td>DIRECT</td>
-                        <td>DIRECT</td>
-                    </tr>
-                    <tr>
-                        <td className="description">СИСТЕМА ОХЛАЖДЕНИЯ</td>
-                        <td>ВОДЯНОЕ</td>
-                        <td>ВОДЯНОЕ</td>
-                        <td>ВОДЯНОЕ</td>
-                        <td>ВОДЯНОЕ</td>
-                        <td>ВОДЯНОЕ</td>
-                    </tr>
-                    <tr>
-                        <td className="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
-                        <td>172</td>
-                        <td>195</td>
-                        <td>215</td>
-                        <td>244</td>
-                        <td>258</td>
-                    </tr>
-                    <tr>
-                        <td className="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
-                        <td>130</td>
-                        <td>143</td>
-                        <td>162</td>
-                        <td>188</td>
-                        <td>196</td>
-                    </tr>
-                    <tr>
-                        <td className="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
-                        <td>90</td>
-                        <td>98</td>
-                        <td>111</td>
-                        <td>120</td>
-                        <td>143</td>
-                    </tr>
-                    <tr>
-                        <td className="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
-                        <td>113,4</td>
-                        <td>153</td>
-                        <td>153</td>
-                        <td>153</td>
-                        <td>177</td>
-                    </tr>
-                    <tr>
-                        <td className="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
-                        <td>105</td>
-                        <td>149</td>
-                        <td>149</td>
-                        <td>140</td>
-                        <td>210</td>
-                    </tr>
-                    <tr>
-                        <td className="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
-                        <td>2072</td>
-                        <td>2072</td>
-                        <td>2072</td>
-                        <td>2072</td>
-                        <td>2500</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div className="table-responsive">
+                <table>
+                    <thead>
+                        <tr className="table-head">
+                            <th className="description">ДИЗЕЛЬ-ГЕНЕРАТОРНАЯ УСТАНОВКА</th>
+                            <th>QUANTUM P 0900</th>
+                            <th>QUANTUM P 1002</th>
+                            <th>QUANTUM P 1125</th>
+                            <th>QUANTUM P 1250</th>
+                            <th>QUANTUM P 1385</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
+                            <td>900</td>
+                            <td>1002</td>
+                            <td>1125</td>
+                            <td>1250</td>
+                            <td>1385</td>
+                        </tr>
+                        <tr>
+                            <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВТ</td>
+                            <td>720</td>
+                            <td>802</td>
+                            <td>900</td>
+                            <td>1000</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВА</td>
+                            <td>800</td>
+                            <td>911</td>
+                            <td>1022</td>
+                            <td>1125</td>
+                            <td>1259</td>
+                        </tr>
+                        <tr>
+                            <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
+                            <td>640</td>
+                            <td>729</td>
+                            <td>818</td>
+                            <td>900</td>
+                            <td>1007</td>
+                        </tr>
+                        <tr>
+                            <td className="description">РАЗМЕРЫ С КОЖУХОМ ММ</td>
+                            <td>2200x5550x3310</td>
+                            <td>2200x5550x3310</td>
+                            <td>2200x5550x3310</td>
+                            <td>2200x5550x3310</td>
+                            <td>2438x7000x3620</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ВЕС С КОЖУХОМ КГ</td>
+                            <td>10686,4</td>
+                            <td>12710</td>
+                            <td>12872</td>
+                            <td>12980</td>
+                            <td>19542</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ГАБАРИТЫ В ОТКРЫТОМ ИСПОЛНЕНИИ</td>
+                            <td>2200x5300x2460</td>
+                            <td>2200x5300x2460</td>
+                            <td>2200x5300x2460</td>
+                            <td>2200x5300x2460</td>
+                            <td>2090x4800x2375</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ВЕС КГ</td>
+                            <td>8931,4</td>
+                            <td>10955</td>
+                            <td>11117</td>
+                            <td>11225</td>
+                            <td>12694</td>
+                        </tr>
+                        <tr>
+                            <td className="description">МАРКА</td>
+                            <td>PERKINS</td>
+                            <td>PERKINS</td>
+                            <td>PERKINS</td>
+                            <td>PERKINS</td>
+                            <td>PERKINS</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ТИП</td>
+                            <td>4006-23TAG3A</td>
+                            <td>4008-TAG1A</td>
+                            <td>4008-TAG2A</td>
+                            <td>4008-30TAG3</td>
+                            <td>4012-46TWG2A</td>
+                        </tr>
+                        <tr>
+                            <td className="description">МОЩНОСТЬ РЕЗЕРВНАЯ КВА</td>
+                            <td>760</td>
+                            <td>855</td>
+                            <td>958</td>
+                            <td>1055</td>
+                            <td>1166</td>
+                        </tr>
+                        <tr>
+                            <td className="description">МОЩНОСТЬ ОСНОВНАЯ КВТ</td>
+                            <td>679</td>
+                            <td>778</td>
+                            <td>872</td>
+                            <td>947</td>
+                            <td>1055</td>
+                        </tr>
+                        <tr>
+                            <td className="description">СКОРОСТЬ ВРАЩЕНИЯ ОБ/МИН</td>
+                            <td>1500</td>
+                            <td>1500</td>
+                            <td>1500</td>
+                            <td>1500</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ЦИКЛ</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ЛИТРАЖ</td>
+                            <td>22,921</td>
+                            <td>30,561</td>
+                            <td>30,561</td>
+                            <td>30,561</td>
+                            <td>45,842</td>
+                        </tr>
+                        <tr>
+                            <td className="description">КОЛИЧЕСТВО ЦИЛИНДРОВ</td>
+                            <td>6 IN LINE</td>
+                            <td>8 IN LINE</td>
+                            <td>8 IN LINE</td>
+                            <td>8 IN LINE</td>
+                            <td> 12 - 60˚ V</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ВНУТРЕННИЙ ДИАМЕТР И ДЛИНА ХОДА ММ</td>
+                            <td>160 x 190</td>
+                            <td>160 x 190</td>
+                            <td>160 x 190</td>
+                            <td>160 x 190</td>
+                            <td>160 x 190</td>
+                        </tr>
+                        <tr>
+                            <td className="description">КОЭФФИЦИЕНТ СЖАТИЯ</td>
+                            <td>13,6 : 1</td>
+                            <td>13,6 : 1</td>
+                            <td>13,6 : 1</td>
+                            <td>13,6 : 1</td>
+                            <td>13,6 : 1</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ТИП РЕГУЛЯТОРА</td>
+                            <td>ЭЛЕКТРОНИКА</td>
+                            <td>ЭЛЕКТРОНИКА</td>
+                            <td>ЭЛЕКТРОНИКА</td>
+                            <td>ЭЛЕКТРОНИКА</td>
+                            <td>ЭЛЕКТРОНИКА</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ИНДУКЦИОННЫЙ</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td className="description">СИСТЕМА СГОРАНИЯ</td>
+                            <td>DIRECT</td>
+                            <td>DIRECT</td>
+                            <td>DIRECT</td>
+                            <td>DIRECT</td>
+                            <td>DIRECT</td>
+                        </tr>
+                        <tr>
+                            <td className="description">СИСТЕМА ОХЛАЖДЕНИЯ</td>
+                            <td>ВОДЯНОЕ</td>
+                            <td>ВОДЯНОЕ</td>
+                            <td>ВОДЯНОЕ</td>
+                            <td>ВОДЯНОЕ</td>
+                            <td>ВОДЯНОЕ</td>
+                        </tr>
+                        <tr>
+                            <td className="description">РАСХОД ТОПЛИВА 100% МОЩНОСТИ</td>
+                            <td>172</td>
+                            <td>195</td>
+                            <td>215</td>
+                            <td>244</td>
+                            <td>258</td>
+                        </tr>
+                        <tr>
+                            <td className="description">РАСХОД ТОПЛИВА 75% МОЩНОСТИ</td>
+                            <td>130</td>
+                            <td>143</td>
+                            <td>162</td>
+                            <td>188</td>
+                            <td>196</td>
+                        </tr>
+                        <tr>
+                            <td className="description">РАСХОД ТОПЛИВА 50% МОЩНОСТИ</td>
+                            <td>90</td>
+                            <td>98</td>
+                            <td>111</td>
+                            <td>120</td>
+                            <td>143</td>
+                        </tr>
+                        <tr>
+                            <td className="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ СМАЗКИ Л</td>
+                            <td>113,4</td>
+                            <td>153</td>
+                            <td>153</td>
+                            <td>153</td>
+                            <td>177</td>
+                        </tr>
+                        <tr>
+                            <td className="description">СУММАРНАЯ ЕМКОСТЬ СИСТЕМЫ ОХЛАЖДЕНИЯ Л</td>
+                            <td>105</td>
+                            <td>149</td>
+                            <td>149</td>
+                            <td>140</td>
+                            <td>210</td>
+                        </tr>
+                        <tr>
+                            <td className="description">ЕМКОСТЬ ТОПЛИВНОГО БАКА Л</td>
+                            <td>2072</td>
+                            <td>2072</td>
+                            <td>2072</td>
+                            <td>2072</td>
+                            <td>2500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 )

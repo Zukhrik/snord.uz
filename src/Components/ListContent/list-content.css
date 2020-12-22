@@ -22,6 +22,11 @@
     justify-content: center;
 }
 
+.list-image img{
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 576px) {
     .list-title {
         font-size: 14px;

@@ -78,7 +78,5 @@
 }
 
 @media (max-width: 576px) {
-    .list-item {
-        width: calc(100%/2 - 12px);
-    }
+    
 }

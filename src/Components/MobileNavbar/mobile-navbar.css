@@ -55,11 +55,31 @@
   background-color: #000;
 }
 
-.mobile-nav-menu {
-  list-style: none;
-  background: #fff;
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #fff;
 }
 
-.mobile-nav-menu-item {
-  color: #000;
+
+.mobile-menu-link {
+  display: block;
+  padding: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.mobile-menu-link.active {
+  color: rgb(52, 106, 206);
+}
+
+.mobile-nav-container {
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  height: calc(100vh - 60px);
+  left: 0;
+  display: flex;
+  flex-direction: column;
 }

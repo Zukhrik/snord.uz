@@ -33,5 +33,10 @@ width: 100%;
 }
 
 
+.table-responsive {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 
 tr:nth-child(even) {background-color: #f2f2f2;}

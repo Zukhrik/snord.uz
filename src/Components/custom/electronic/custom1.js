@@ -153,6 +153,7 @@ export const Custom1 = () => (
 				</ul>
 			</div>
 
+			<div className="table-responsive">
 			<table>
 				<thead>
 					<tr className="table-head">
@@ -391,6 +392,7 @@ export const Custom1 = () => (
 					</tr>
 				</tbody>
 			</table>
+			</div>
 		</div>
 	</div>
 ) 
