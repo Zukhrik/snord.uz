@@ -80,8 +80,13 @@ h6 {
     transform: translateX(-2px);
 }
 
-.e-mail {
-    width: 70%;
+.e-mail > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.e-mail > input {
+
 }
 
 .e-mail h6 {
@@ -95,7 +100,7 @@ h6 {
     .footer-back {
       display: grid;
       grid-template-columns: 1fr 1fr;
-    } 
+    }
 }
 
 @media (max-width: 576px) {

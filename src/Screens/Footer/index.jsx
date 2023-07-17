@@ -1,21 +1,27 @@
 import React, { useState } from 'react'
-
 //logo
 import logo from '../../Assets/images/logo.png'
-
 //style
 import './footer.css'
+//emailjs
+import emailjs from '@emailjs/browser'
 
 //helper
 import menus from '../../Components/Navbar/helper.js'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default () => {
-
     const [active, setActive] = useState('#home')
 
     const handleClick = (value) => {
         setActive(value)
+    }
+    
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        
+        emailjs.sendForm('service_0hmedwk', 'template_2kgy2n4', e.target, 'CsJ7njyvpOUE091fb')
+        console.log(e.target, 'target');
     }
 
     return (
@@ -68,19 +74,31 @@ export default () => {
 
                     <div className="e-mail">
                         <h6>ОБРАТНАЯ СВЯЗЬ</h6>
-                        <p>По вопросам и пожеланием заполните поля</p>
-
-                        <form>
+                        <form onSubmit={handleSubmit}>
+                            <input
+                              name='from_name'
+                              type='string'
+                              placeholder='Введите имя ...'
+                            />
+                            <input
+                              name='phone'
+                              type='number'
+                              placeholder='+998 __ ___ __ __'
+                            />
                             <input
                                 type="email"
-                                id="email"
-                                name="email"
+                                name="email_from"
                                 placeholder="you@example.com"
-                            >
-                            </input>
+                            />
+                            <textarea
+                              name='message'
+                              placeholder='Коментарии'
+                              cols={5}
+                              rows={3}
+                            />
                             <button>
                                 ОТПРАВИТЬ
-                        </button>
+                            </button>
                         </form>
 
                     </div>
